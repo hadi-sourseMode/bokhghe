@@ -1,16 +1,12 @@
-$color-dark : #262626;
-$color-black:#000;
-$color-primary:#d3ab55;
-$color-secondary:#bbb;
-$color-white:white;
-
-
+$color-user : #7da78bf3;
+$color-secondary: #fbfbfb;
+$text-secondary: #878787;
 @font-face {
     font-family: 'font';
-    src: url(../../assets/font/font.ttf);
+    src: url(../../../assets/font/YekanBakh-Light.ttf);
 }
 
-
+*,
 html,
 body,
 div,

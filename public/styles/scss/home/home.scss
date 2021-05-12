@@ -1,4 +1,56 @@
-.w-19 {
-    width: 4.7rem;
+@import "../base";
+
+body {
+    background-color: $color-secondary;
 }
-   .dd{color: blue;}
+.ScrollCarousel .ScrollCarousel-Items {
+    position: relative;
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+    overflow-y: hidden;
+    padding-bottom: 5px;
+    scrollbar-color: $color-secondary $color-secondary;
+    scrollbar-width: thin;
+}
+
+.ScrollCarousel-Items::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+.ScrollCarousel-Items::-webkit-scrollbar-thumb {
+    background: $color-secondary;
+    border-radius: 13px;
+    @media ( min-width: 750px ) {
+        background: rgb(245, 245, 245);
+    }
+}
+.ScrollCarousel-Items::-webkit-scrollbar-track {
+    background: $color-secondary;
+    @media ( min-width: 750px ) {
+        background: rgba(255, 255, 255, 0.541);
+    }
+}
+
+.disable-select {
+    user-select: none; /* supported by Chrome and Opera */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.title_ghorfeh {
+    color: $text-secondary;
+}
+
+.div_border_futher_image_monitoring {
+    border: 1.7px solid $color-user;
+}
+.see_all{
+    color: $color-user;
+}
+.top-comodity{
+    background-color: #EF4F4F;
+    
+}

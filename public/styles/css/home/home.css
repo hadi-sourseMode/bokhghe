@@ -1,0 +1,183 @@
+@font-face {
+  font-family: 'font';
+  src: url(../../../assets/font/YekanBakh-Light.ttf); }
+
+*,
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: font;
+  vertical-align: baseline;
+  box-sizing: border-box; }
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol,
+ul {
+  list-style: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  background-color: #fbfbfb; }
+
+.ScrollCarousel .ScrollCarousel-Items {
+  position: relative;
+  display: flex;
+  overflow-x: auto;
+  width: 100%;
+  overflow-y: hidden;
+  padding-bottom: 5px;
+  scrollbar-color: #fbfbfb #fbfbfb;
+  scrollbar-width: thin; }
+
+.ScrollCarousel-Items::-webkit-scrollbar {
+  width: 4px;
+  height: 4px; }
+
+.ScrollCarousel-Items::-webkit-scrollbar-thumb {
+  background: #fbfbfb;
+  border-radius: 13px; }
+  @media (min-width: 750px) {
+    .ScrollCarousel-Items::-webkit-scrollbar-thumb {
+      background: whitesmoke; } }
+
+.ScrollCarousel-Items::-webkit-scrollbar-track {
+  background: #fbfbfb; }
+  @media (min-width: 750px) {
+    .ScrollCarousel-Items::-webkit-scrollbar-track {
+      background: rgba(255, 255, 255, 0.541); } }
+
+.disable-select {
+  user-select: none;
+  /* supported by Chrome and Opera */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */ }
+
+.title_ghorfeh {
+  color: #878787; }
+
+.div_border_futher_image_monitoring {
+  border: 1.7px solid #7da78bf3; }
+
+.see_all {
+  color: #7da78bf3; }
+
+.top-comodity {
+  background-color: #EF4F4F; }

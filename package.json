@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "node-sass -o public/styles/css/ public/styles/scss/ -w",
+    "serve": "live-server public/"
   },
   "keywords": [],
   "author": "",
