@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'font';
-  src: url(../../../assets/font/YekanBakh-Light.ttf); }
+  src: url(../../../assets/font/YekanBakh-Light.ttf);
+}
 
 *,
 html,
@@ -90,7 +91,9 @@ video {
   font-size: 100%;
   font-family: font;
   vertical-align: baseline;
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
 
 /* HTML5 display-role reset for older browsers */
 article,
@@ -104,59 +107,78 @@ hgroup,
 menu,
 nav,
 section {
-  display: block; }
+  display: block;
+}
 
 body {
-  line-height: 1; }
+  line-height: 1;
+}
 
 ol,
 ul {
-  list-style: none; }
+  list-style: none;
+}
 
 blockquote,
 q {
-  quotes: none; }
+  quotes: none;
+}
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
   content: '';
-  content: none; }
+  content: none;
+}
 
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
 
 body {
-  background-color: #fbfbfb; }
+  background-color: #fbfbfb;
+}
 
 .ScrollCarousel .ScrollCarousel-Items {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   overflow-x: auto;
   width: 100%;
   overflow-y: hidden;
   padding-bottom: 5px;
   scrollbar-color: #fbfbfb #fbfbfb;
-  scrollbar-width: thin; }
+  scrollbar-width: thin;
+}
 
 .ScrollCarousel-Items::-webkit-scrollbar {
   width: 4px;
-  height: 4px; }
+  height: 4px;
+}
 
 .ScrollCarousel-Items::-webkit-scrollbar-thumb {
   background: #fbfbfb;
-  border-radius: 13px; }
-  @media (min-width: 750px) {
-    .ScrollCarousel-Items::-webkit-scrollbar-thumb {
-      background: whitesmoke; } }
+  border-radius: 13px;
+}
+
+@media (min-width: 750px) {
+  .ScrollCarousel-Items::-webkit-scrollbar-thumb {
+    background: whitesmoke;
+  }
+}
 
 .ScrollCarousel-Items::-webkit-scrollbar-track {
-  background: #fbfbfb; }
-  @media (min-width: 750px) {
-    .ScrollCarousel-Items::-webkit-scrollbar-track {
-      background: rgba(255, 255, 255, 0.541); } }
+  background: #fbfbfb;
+}
+
+@media (min-width: 750px) {
+  .ScrollCarousel-Items::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.541);
+  }
+}
 
 .disable-select {
   user-select: none;
@@ -168,16 +190,78 @@ body {
   -moz-user-select: none;
   /* Firefox */
   -ms-user-select: none;
-  /* Internet Explorer/Edge */ }
+  /* Internet Explorer/Edge */
+}
 
 .title_ghorfeh {
-  color: #878787; }
+  color: #878787;
+}
 
 .div_border_futher_image_monitoring {
-  border: 1.7px solid #7da78bf3; }
+  border: 1.7px solid #7da78bf3;
+}
 
 .see_all {
-  color: #7da78bf3; }
+  color: #7da78bf3;
+}
 
-.top-comodity {
-  background-color: #EF4F4F; }
+.price_comodity {
+  background-color: #EF4F4F;
+}
+
+.sub_text_como {
+  font-size: 8px;
+  color: #f48585;
+}
+
+@media (min-width: 550px) {
+  .sub_text_como {
+    font-size: 14px;
+  }
+}
+
+.sub_price_como {
+  font-size: 8px;
+  color: #f8b1b1;
+}
+
+@media (min-width: 550px) {
+  .sub_price_como {
+    font-size: 14px;
+  }
+}
+
+.como_img {
+  min-width: 80px;
+  max-width: 90px;
+}
+
+@media (min-width: 550px) {
+  .como_img {
+    min-width: 180px;
+    max-width: 190px;
+  }
+}
+
+.sub_text_top_como {
+  font-size: 8px;
+  color: #9ac0a7;
+}
+
+@media (min-width: 550px) {
+  .sub_text_top_como {
+    font-size: 14px;
+  }
+}
+
+.sub_price_top_como {
+  font-size: 8px;
+  color: #8c8c8c;
+}
+
+@media (min-width: 550px) {
+  .sub_price_top_como {
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=home.css.map */

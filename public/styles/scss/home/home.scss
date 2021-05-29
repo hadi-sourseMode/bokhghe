@@ -50,7 +50,43 @@ body {
 .see_all{
     color: $color-user;
 }
-.top-comodity{
+.price_comodity{
     background-color: #EF4F4F;
-    
+}
+.sub_text_como {
+    font-size: 8px;
+    color: #f48585;
+    @media ( min-width: 550px ) {
+        font-size: 14px;
+
+    }
+}
+.sub_price_como{
+    font-size: 8px;
+    color: #f8b1b1;
+    @media ( min-width: 550px ) {
+        font-size: 14px;
+    }
+}
+.como_img{
+    min-width: 80px;
+    max-width: 90px;
+    @media ( min-width: 550px ) {
+        min-width: 180px;
+        max-width: 190px;
+    }
+}
+.sub_text_top_como{
+    font-size: 8px;
+    color: #9ac0a7;
+    @media ( min-width: 550px ) {
+        font-size: 14px;
+    }
+}
+.sub_price_top_como{
+    font-size: 8px;
+    color: #8c8c8c;
+    @media ( min-width: 550px ) {
+        font-size: 14px;
+    }
 }
