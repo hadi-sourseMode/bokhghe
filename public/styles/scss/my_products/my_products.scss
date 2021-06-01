@@ -1,0 +1,17 @@
+@import "../base";
+.actve_bar_b {
+    color: $text-seller;
+}
+
+.deactve_bar_b {
+    color: #aaa9a9;
+}
+
+body {
+    background: #fbfbfb;
+}
+
+.btn_add_product {
+    background-color: $text-seller;
+    color: white;
+}

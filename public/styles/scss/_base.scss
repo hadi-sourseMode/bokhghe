@@ -1,7 +1,6 @@
-$color-user : #7da78bf3;
+$color-user: #7da78bf3;
 $color-secondary: #fbfbfb;
 $text-secondary: #878787;
-
 $color-seller: #cb8b8a;
 $text-seller: #a63532;
 @font-face {
@@ -100,7 +99,9 @@ video {
     box-sizing: border-box;
 }
 
+
 /* HTML5 display-role reset for older browsers */
+
 article,
 aside,
 details,
@@ -140,4 +141,8 @@ q:after {
 table {
     border-collapse: collapse;
     border-spacing: 0;
+}
+
+.sub_text {
+    color: rgb(151, 151, 151);
 }

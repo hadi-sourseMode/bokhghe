@@ -145,23 +145,10 @@ body {
   background: #fbfbfb;
 }
 
-.input_seller {
-  border: none;
-  border-bottom: 2px solid #cb8b8a;
-  background: #fbfbfb;
-}
-
-.input_seller:focus {
-  outline: none;
-}
-
-.input_seller_label {
-  color: #a63532;
-}
-
 .submit_information_btn {
   background: #a63532;
   cursor: pointer;
+  letter-spacing: 1px;
 }
 
 .bounceIn:active {
@@ -252,4 +239,40 @@ body {
     transform: scale3d(1, 1, 1);
   }
 }
-/*# sourceMappingURL=information_account_seller.css.map */
+
+.price_class_pony {
+  width: 80px;
+  height: 30px;
+  padding-top: 4px;
+  border: none;
+  border: 2px solid #dddddd;
+  border-radius: 5px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.price_class_pony:focus {
+  outline: none;
+}
+
+.shadow-cc {
+  -webkit-box-shadow: 0px 0px 13px -2px #0000003b;
+  box-shadow: 0px 0px 13px -2px #0000003b;
+}
+
+.actve_bar_b {
+  color: #a63532;
+}
+
+.deactve_bar_b {
+  color: #aaa9a9;
+}
+
+.sub_text {
+  color: #979797;
+}
+
+.tab_active {
+  border-bottom: 4px solid #a63532;
+}
+/*# sourceMappingURL=my_Order.css.map */

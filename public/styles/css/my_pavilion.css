@@ -137,6 +137,10 @@ table {
   border-spacing: 0;
 }
 
+.sub_text {
+  color: #979797;
+}
+
 body {
   background: #fbfbfb;
 }
@@ -254,5 +258,13 @@ body {
 .shadow-cc {
   -webkit-box-shadow: 0px 0px 13px -2px #0000003b;
   box-shadow: 0px 0px 13px -2px #0000003b;
+}
+
+.actve_bar_b {
+  color: #a63532;
+}
+
+.deactve_bar_b {
+  color: #aaa9a9;
 }
 /*# sourceMappingURL=my_pavilion.css.map */
