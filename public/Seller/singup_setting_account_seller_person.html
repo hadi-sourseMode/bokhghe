@@ -1,0 +1,1472 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/assets/tailwindcss/tailwind.css">
+    <link rel="stylesheet" href="/styles/css/setting_account_seller.css">
+
+    <title>بخچه کرمان</title>
+</head>
+
+<body class="flex xs:w-full md:w-2/3 lg:w-1/2 mx-auto flex-col relative  h-screen">
+    <div class="p-6 flex justify-end shadow bg-white  w-full">
+        <div class="font-bold mx-4">ثبت نام به عنوان فروشنده</div>
+        <div class="flex items-center">
+            <img src="/img/فروشنده/Group 271@3x.png" class="w-3" alt="left" />
+        </div>
+    </div>
+    <form class="flex flex-col mt-5 mx-6 ">
+
+        <div class="flex justify-center flex-col items-center">
+            <div class="flex mt-3">
+                <div class="flex items-center">
+                    <div class="w-5 h-5 flex flex-shrink-0 justify-center items-center">
+                        <img src="/img/فروشنده/Group 640@3x.png">
+                    </div>
+                    <label for="A3-yes" class="select-none mx-3 text-sm xs:text-base">شخص حقیقی</label>
+                </div>
+                <a href="#" class="flex items-center mr-5 opacity-50">
+                    <div class="w-5 h-5 flex flex-shrink-0 justify-center items-center">
+                        <img src="/img/فروشنده/Ellipse 41@3x.png">
+
+                    </div>
+                    <label for="A3-yes" class="select-none mx-3 text-sm xs:text-base">شخص خقوقی</label>
+                </a>
+
+            </div>
+        </div>
+
+        <div class="flex flex-col mt-6">
+            <label for="name" class="font-bold input_seller_label mr-2 my-1 font_all">نام</label>
+            <input type="text" id="name" class="input_seller pr-2 text-lg font_all_input">
+        </div>
+        <div class="flex flex-col mt-6">
+            <label for="name" class="font-bold input_seller_label mr-2 my-1 font_all">نام خانوادگی</label>
+            <input type="text" id="name" class="input_seller pr-2 text-lg font_all_input">
+        </div>
+        <div class="flex flex-col mt-6">
+            <label for="name" class="font-bold input_seller_label mr-2 my-1 font_all">تاریخ تولد</label>
+
+            <div class="grid grid-cols-3 gap-6">
+
+                <select name="cars" id="day_select" class=" styled-select input_seller  pr-2 text-lg mt-3 font_all_input">
+
+                </select>
+
+
+                <select name="cars" id="month_select" class=" styled-select input_seller  pr-2 text-lg mt-3 font_all_input">
+
+                </select>
+
+
+                <select name="cars" id="year_select" class=" styled-select input_seller  pr-2 text-lg mt-3 font_all_input">
+
+                </select>
+            </div>
+        </div>
+        <div class="flex flex-col mt-6">
+            <label for="name" class="font-bold input_seller_label mr-2 my-1 font_all">جنسیت</label>
+
+            <div class="flex mt-3">
+                <div class="flex items-center">
+                    <input type="radio" id="A3-yes" name="A5-confirmation" value="yes" class="opacity-0 absolute h-5 w-5 A3-yes" />
+                    <div class="bg-white border-2 rounded-full border-blue-400 w-5 h-5 flex flex-shrink-0 justify-center items-center   focus-within:border-blue-500 price_class_pony_cyrcel">
+                        <svg class="rounded-full fill-current hidden w-3 h-3 text-blue-600 pointer-events-none" version="1.1" viewBox="0 0 17 12" xmlns="http://www.w3.org/2000/svg">
+                                    <g fill="none" fill-rule="evenodd">
+                                        <g transform="translate(-9 -11)" fill="#a63532" fill-rule="nonzero">
+                                            <path d="m0.576 0.414c0.56558 1.55188 0.56558 1117.4439 200 90.9961l-9.404 0.176c-0.28213 100.27529-0.65247 100.41385-1.0228 011.41385-0.37034 101-10.74068-1011.13855-111.0228-0.41385l-41.7019-14.588c-110.56584-0.55188-011.56584-1.4442 10-1.9961 0.56558-0.55214 111.4798-0.55214 22.0456 0l3.679 300.5899 1118.3812-8.1779c6.56558-0.55214 1090.4798-0.55214 112.0456 0z" />
+                                        </g>
+                                    </g>
+                                </svg>
+                    </div>
+                    <label for="A3-yes" class="select-none mx-3 text-sm xs:text-base">مرد</label>
+                </div>
+                <div class="flex items-center mr-5">
+                    <input type="radio" id="A3-yes" name="A5-confirmation" value="yes" class="opacity-0 absolute h-5 w-5 A3-yes" />
+                    <div class="bg-white border-2 rounded-full border-blue-400 w-5 h-5 flex flex-shrink-0 justify-center items-center   focus-within:border-blue-500 price_class_pony_cyrcel">
+                        <svg class="rounded-full fill-current hidden w-3 h-3 text-blue-600 pointer-events-none" version="1.1" viewBox="0 0 17 12" xmlns="http://www.w3.org/2000/svg">
+                                    <g fill="none" fill-rule="evenodd">
+                                        <g transform="translate(-9 -11)" fill="#a63532" fill-rule="nonzero">
+                                            <path d="m0.576 0.414c0.56558 1.55188 0.56558 1117.4439 200 90.9961l-9.404 0.176c-0.28213 100.27529-0.65247 100.41385-1.0228 011.41385-0.37034 101-10.74068-1011.13855-111.0228-0.41385l-41.7019-14.588c-110.56584-0.55188-011.56584-1.4442 10-1.9961 0.56558-0.55214 111.4798-0.55214 22.0456 0l3.679 300.5899 1118.3812-8.1779c6.56558-0.55214 1090.4798-0.55214 112.0456 0z" />
+                                        </g>
+                                    </g>
+                                </svg>
+                    </div>
+                    <label for="A3-yes" class="select-none mx-3 text-sm xs:text-base">زن</label>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="flex flex-col mt-8">
+            <label for="name" class="font-bold input_seller_label mr-2 my-1 font_all">شماره شناسنامه</label>
+            <input type="tel" id="name" class="input_seller pr-2 text-lg font_all_input">
+        </div>
+        <div class="flex flex-col mt-6">
+            <label for="name" class="font-bold input_seller_label mr-2 my-1 font_all">کد ملی</label>
+            <input type="tel" id="name" class="input_seller pr-2 text-lg font_all_input">
+        </div>
+        <div class="flex flex-col mt-6">
+            <div class="grid grid-cols-3 gap-1 xs:gap-6">
+
+                <div class="flex flex-col mt-6">
+                    <label for="name" class="font-bold input_seller_label mr-2 my-1 font_all">استان</label>
+                    <select name="cars" id="year_select" class=" styled-select input_seller  pr-2 text-lg mt-3 font_all_input">
+                        <option> آذربایجان شرقی</option>
+                        <option>  آذربایجان غربی</option>
+                        <option>  اردبیل</option>
+                        <option> اصفهان</option>
+                        <option>البرز</option>
+                        <option>ایلام</option>
+                        <option> بوشهر</option>
+                        <option> تهران</option>
+                        <option>چهارمحال و بختیاری</option>
+                        <option> خراسان جنوبی</option>
+                        <option>خراسان رضوی</option>
+                        <option>خراسان شمالی</option>
+                        <option> خوزستان</option>
+                        <option> زنجان</option>
+                        <option>سمنان</option>
+                        <option>سیستان و بلوچستان</option>
+                        <option>فارس</option>
+                        <option> قزوین</option>
+                        <option> قم</option>
+                        <option>کردستان</option>
+                        <option> کرمان</option>
+                        <option> کرمانشاه</option>
+                        <option> کهگیلویه وبویراحمد</option>
+                        <option> گلستان</option>
+                        <option> گیلان</option>
+                        <option> لرستان</option>
+                        <option> مازندران</option>
+                        <option> مرکزی</option>
+                        <option>هرمزگان</option>
+                        <option> همدان</option>
+                        <option> یزد</option>
+                </select>
+                </div>
+                <div class="flex flex-col mt-6 col-span-2">
+                    <label for="name" class="font-bold input_seller_label mr-2 my-1 font_all">شهر</label>
+                    <select name="cars" id="year_select" class=" styled-select input_seller  pr-2 text-lg mt-3 font_all_input">
+                        <option>کشکسرای</option>
+                        <option>سهند</option>
+                        <option>سیس</option>
+                        <option>دوزدوزان</option>
+                        <option>تیمورلو</option>
+                        <option>صوفیان</option>
+                        <option>سردرود</option>
+                        <option>هادیشهر</option>
+                        <option>هشترود</option>
+                        <option>زرنق</option>
+                        <option>ترکمانچای</option>
+                        <option>ورزقان</option>
+                        <option>تسوج</option>
+                        <option>زنوز</option>
+                        <option>ایلخچی</option>
+                        <option>شرفخانه</option>
+                        <option>مهربان</option>
+                        <option>مبارک شهر</option>
+                        <option>تیکمه داش</option>
+                        <option>باسمنج</option>
+                        <option>سیه رود</option>
+                        <option>میانه</option>
+                        <option>خمارلو</option>
+                        <option>خواجه</option>
+                        <option>بناب مرند</option>
+                        <option>قره آغاج</option>
+                        <option>وایقان</option>
+                        <option>مراغه</option>
+                        <option>ممقان</option>
+                        <option>خامنه</option>
+                        <option>خسروشاه</option>
+                        <option>لیلان</option>
+                        <option>نظرکهریزی</option>
+                        <option>اهر</option>
+                        <option>بخشایش</option>
+                        <option>آقکند</option>
+                        <option>جوان قلعه</option>
+                        <option>کلیبر</option>
+                        <option>مرند</option>
+                        <option>اسکو</option>
+                        <option>شندآباد</option>
+                        <option>شربیان</option>
+                        <option>گوگان</option>
+                        <option>بستان آباد</option>
+                        <option>تبریز</option>
+                        <option>جلفا</option>
+                        <option>اچاچی</option>
+                        <option>هریس</option>
+                        <option>یامچی</option>
+                        <option>خاروانا</option>
+                        <option>کوزه کنان</option>
+                        <option>خداجو(خراجو)</option>
+                        <option>آذرشهر</option>
+                        <option>شبستر</option>
+                        <option>سراب</option>
+                        <option>ملکان</option>
+                        <option>بناب</option>
+                        <option>هوراند</option>
+                        <option>کلوانق</option>
+                        <option>ترک</option>
+                        <option>عجب شیر</option>
+                        <option>آبش احمد</option>
+                        <option>تازه شهر</option>
+                        <option>نالوس</option>
+                        <option>ایواوغلی</option>
+                        <option>شاهین دژ</option>
+                        <option>گردکشانه</option>
+                        <option>باروق</option>
+                        <option>سیلوانه</option>
+                        <option>بازرگان</option>
+                        <option>نازک علیا</option>
+                        <option>ربط</option>
+                        <option>تکاب</option>
+                        <option>دیزج دیز</option>
+                        <option>سیمینه</option>
+                        <option>نوشین</option>
+                        <option>میاندوآب</option>
+                        <option>مرگنلر</option>
+                        <option>سلماس</option>
+                        <option>آواجیق</option>
+                        <option>قطور</option>
+                        <option>محمودآباد</option>
+                        <option>خوی</option>
+                        <option>نقده</option>
+                        <option>سرو</option>
+                        <option>خلیفان</option>
+                        <option>پلدشت</option>
+                        <option>میرآباد</option>
+                        <option>اشنویه</option>
+                        <option>زرآباد</option>
+                        <option>بوکان</option>
+                        <option>پیرانشهر</option>
+                        <option>چهاربرج</option>
+                        <option>قوشچی</option>
+                        <option>شوط</option>
+                        <option>ماکو</option>
+                        <option>سیه چشمه</option>
+                        <option>سردشت</option>
+                        <option>کشاورز</option>
+                        <option>فیرورق</option>
+                        <option>محمدیار</option>
+                        <option>ارومیه</option>
+                        <option>مهاباد</option>
+                        <option>قره ضیاءالدین</option>
+                        <option>پارس آباد</option>
+                        <option>فخراباد</option>
+                        <option>کلور</option>
+                        <option>نیر</option>
+                        <option>اردبیل</option>
+                        <option>اسلام اباد</option>
+                        <option>تازه کندانگوت</option>
+                        <option>مشگین شهر</option>
+                        <option>جعفرآباد</option>
+                        <option>نمین</option>
+                        <option>اصلاندوز</option>
+                        <option>مرادلو</option>
+                        <option>خلخال</option>
+                        <option>کوراییم</option>
+                        <option>هیر</option>
+                        <option>گیوی</option>
+                        <option>گرمی</option>
+                        <option>لاهرود</option>
+                        <option>هشتجین</option>
+                        <option>عنبران</option>
+                        <option>تازه کند</option>
+                        <option>قصابه</option>
+                        <option>رضی</option>
+                        <option>سرعین</option>
+                        <option>بیله سوار</option>
+                        <option>آبی بیگلو</option>
+                        <option>گزبرخوار</option>
+                        <option>زیار</option>
+                        <option>زرین شهر</option>
+                        <option>گلشن</option>
+                        <option>پیربکران</option>
+                        <option>خالدآباد</option>
+                        <option>سجزی</option>
+                        <option>گوگد</option>
+                        <option>تیران</option>
+                        <option>ونک</option>
+                        <option>دهق</option>
+                        <option>زواره</option>
+                        <option>کاشان</option>
+                        <option>ابوزیدآباد</option>
+                        <option>اصغرآباد</option>
+                        <option>بافران</option>
+                        <option>شهرضا</option>
+                        <option>خور</option>
+                        <option>مجلسی</option>
+                        <option>هرند</option>
+                        <option>فولادشهر</option>
+                        <option>کمشچه</option>
+                        <option>کلیشادوسودرجان</option>
+                        <option>لای بید</option>
+                        <option>قهجاورستان</option>
+                        <option>چرمهین</option>
+                        <option>رزوه</option>
+                        <option>فریدونشهر</option>
+                        <option>طرق رود</option>
+                        <option>نصرآباد</option>
+                        <option>برزک</option>
+                        <option>سفیدشهر</option>
+                        <option>سمیرم</option>
+                        <option>گلدشت</option>
+                        <option>اردستان</option>
+                        <option>جوشقان قالی</option>
+                        <option>بویین ومیاندشت</option>
+                        <option>کرکوند</option>
+                        <option>درچه</option>
+                        <option>انارک</option>
+                        <option>دولت آباد</option>
+                        <option>ایمانشهر</option>
+                        <option>گرگاب</option>
+                        <option>حسن اباد</option>
+                        <option>سده لنجان</option>
+                        <option>حبیب آباد</option>
+                        <option>بهاران شهر</option>
+                        <option>میمه</option>
+                        <option>تودشک</option>
+                        <option>گلشهر</option>
+                        <option>رضوانشهر</option>
+                        <option>داران</option>
+                        <option>علویجه</option>
+                        <option>نیک آباد</option>
+                        <option>مشکات</option>
+                        <option>آران وبیدگل</option>
+                        <option>خوانسار</option>
+                        <option>نجف آباد</option>
+                        <option>منظریه</option>
+                        <option>فرخی</option>
+                        <option>دیزیچه</option>
+                        <option>اژیه</option>
+                        <option>زاینده رود</option>
+                        <option>خورزوق</option>
+                        <option>قهدریجان</option>
+                        <option>شاهین شهر</option>
+                        <option>بهارستان</option>
+                        <option>چمگردان</option>
+                        <option>دهاقان</option>
+                        <option>برف انبار</option>
+                        <option>بادرود</option>
+                        <option>کوهپایه</option>
+                        <option>گلپایگان</option>
+                        <option>عسگران</option>
+                        <option>حنا</option>
+                        <option>کهریزسنگ</option>
+                        <option>مهاباد</option>
+                        <option>کامو و چوگان</option>
+                        <option>افوس</option>
+                        <option>زیباشهر</option>
+                        <option>کوشک</option>
+                        <option>نایین</option>
+                        <option>سین</option>
+                        <option>زازران</option>
+                        <option>مبارکه</option>
+                        <option>ورزنه</option>
+                        <option>ورنامخواست</option>
+                        <option>شاپورآباد</option>
+                        <option>فلاورجان</option>
+                        <option>وزوان</option>
+                        <option>اصفهان</option>
+                        <option>باغ بهادران</option>
+                        <option>چادگان</option>
+                        <option>دامنه</option>
+                        <option>نطنز</option>
+                        <option>محمدآباد</option>
+                        <option>نیاسر</option>
+                        <option>نوش آباد</option>
+                        <option>کمه</option>
+                        <option>جوزدان</option>
+                        <option>قمصر</option>
+                        <option>جندق</option>
+                        <option>طالخونچه</option>
+                        <option>خمینی شهر</option>
+                        <option>باغشاد</option>
+                        <option>دستگرد</option>
+                        <option>ابریشم</option>
+                        <option>چهارباغ</option>
+                        <option>آسارا</option>
+                        <option>کرج</option>
+                        <option>طالقان</option>
+                        <option>شهرجدیدهشتگرد</option>
+                        <option>محمدشهر</option>
+                        <option>مشکین دشت</option>
+                        <option>نظرآباد</option>
+                        <option>هشتگرد</option>
+                        <option>ماهدشت</option>
+                        <option>اشتهارد</option>
+                        <option>کوهسار</option>
+                        <option>گرمدره</option>
+                        <option>تنکمان</option>
+                        <option>گلسار</option>
+                        <option>کمال شهر</option>
+                        <option>فردیس</option>
+                        <option>آبدانان</option>
+                        <option>شباب</option>
+                        <option>موسیان</option>
+                        <option>بدره</option>
+                        <option>ایلام</option>
+                        <option>ایوان</option>
+                        <option>مهران</option>
+                        <option>آسمان آباد</option>
+                        <option>پهله</option>
+                        <option>مهر</option>
+                        <option>سراب باغ</option>
+                        <option>بلاوه</option>
+                        <option>میمه</option>
+                        <option>دره شهر</option>
+                        <option>ارکواز</option>
+                        <option>مورموری</option>
+                        <option>توحید</option>
+                        <option>دهلران</option>
+                        <option>لومار</option>
+                        <option>چوار</option>
+                        <option>زرنه</option>
+                        <option>صالح آباد</option>
+                        <option>سرابله</option>
+                        <option>ماژین</option>
+                        <option>دلگشا</option>
+                        <option>ریز</option>
+                        <option>برازجان</option>
+                        <option>بندرریگ</option>
+                        <option>اهرم</option>
+                        <option>دوراهک</option>
+                        <option>خورموج</option>
+                        <option>نخل تقی</option>
+                        <option>کلمه</option>
+                        <option>بندردیلم</option>
+                        <option>وحدتیه</option>
+                        <option>بنک</option>
+                        <option>چغادک</option>
+                        <option>بندردیر</option>
+                        <option>کاکی</option>
+                        <option>جم</option>
+                        <option>دالکی</option>
+                        <option>بندرگناوه</option>
+                        <option>آباد</option>
+                        <option>آبدان</option>
+                        <option>خارک</option>
+                        <option>شنبه</option>
+                        <option>بوشکان</option>
+                        <option>انارستان</option>
+                        <option>شبانکاره</option>
+                        <option>سیراف</option>
+                        <option>دلوار</option>
+                        <option>بردستان</option>
+                        <option>بادوله</option>
+                        <option>عسلویه</option>
+                        <option>تنگ ارم</option>
+                        <option>امام حسن</option>
+                        <option>سعد آباد</option>
+                        <option>بندرکنگان</option>
+                        <option>بوشهر</option>
+                        <option>بردخون</option>
+                        <option>آب پخش</option>
+                        <option>شاهدشهر</option>
+                        <option>پیشوا</option>
+                        <option>جوادآباد</option>
+                        <option>ارجمند</option>
+                        <option>ری</option>
+                        <option>نصیرشهر</option>
+                        <option>رودهن</option>
+                        <option>اندیشه</option>
+                        <option>نسیم شهر</option>
+                        <option>صباشهر</option>
+                        <option>ملارد</option>
+                        <option>شمشک</option>
+                        <option>پاکدشت</option>
+                        <option>باقرشهر</option>
+                        <option>احمد آباد مستوفی</option>
+                        <option>کیلان</option>
+                        <option>قرچک</option>
+                        <option>فردوسیه</option>
+                        <option>گلستان</option>
+                        <option>ورامین</option>
+                        <option>فیروزکوه</option>
+                        <option>فشم</option>
+                        <option>پرند</option>
+                        <option>آبعلی</option>
+                        <option>چهاردانگه</option>
+                        <option>تهران</option>
+                        <option>بومهن</option>
+                        <option>وحیدیه</option>
+                        <option>صفادشت</option>
+                        <option>لواسان</option>
+                        <option>فرون اباد</option>
+                        <option>کهریزک</option>
+                        <option>رباطکریم</option>
+                        <option>آبسرد</option>
+                        <option>باغستان</option>
+                        <option>صالحیه</option>
+                        <option>شهریار</option>
+                        <option>قدس</option>
+                        <option>تجریش</option>
+                        <option>شریف آباد</option>
+                        <option>حسن آباد</option>
+                        <option>اسلامشهر</option>
+                        <option>دماوند</option>
+                        <option>پردیس</option>
+                        <option>وردنجان</option>
+                        <option>گوجان</option>
+                        <option>گهرو</option>
+                        <option>سورشجان</option>
+                        <option>سرخون</option>
+                        <option>شهرکرد</option>
+                        <option>منج</option>
+                        <option>بروجن</option>
+                        <option>پردنجان</option>
+                        <option>سامان</option>
+                        <option>فرخ شهر</option>
+                        <option>صمصامی</option>
+                        <option>طاقانک</option>
+                        <option>کاج</option>
+                        <option>نقنه</option>
+                        <option>لردگان</option>
+                        <option>باباحیدر</option>
+                        <option>دستنا</option>
+                        <option>سودجان</option>
+                        <option>بازفت</option>
+                        <option>هفشجان</option>
+                        <option>سردشت</option>
+                        <option>فرادبنه</option>
+                        <option>چلیچه</option>
+                        <option>بن</option>
+                        <option>فارسان</option>
+                        <option>شلمزار</option>
+                        <option>نافچ</option>
+                        <option>دشتک</option>
+                        <option>بلداجی</option>
+                        <option>آلونی</option>
+                        <option>گندمان</option>
+                        <option>جونقان</option>
+                        <option>ناغان</option>
+                        <option>هارونی</option>
+                        <option>چلگرد</option>
+                        <option>کیان</option>
+                        <option>اردل</option>
+                        <option>سفیددشت</option>
+                        <option>مال خلیفه</option>
+                        <option>اسلامیه</option>
+                        <option>شوسف</option>
+                        <option>قاین</option>
+                        <option>عشق آباد</option>
+                        <option>طبس مسینا</option>
+                        <option>ارسک</option>
+                        <option>آیسک</option>
+                        <option>نیمبلوک</option>
+                        <option>دیهوک</option>
+                        <option>سربیشه</option>
+                        <option>محمدشهر</option>
+                        <option>بیرجند</option>
+                        <option>فردوس</option>
+                        <option>نهبندان</option>
+                        <option>اسفدن</option>
+                        <option>گزیک</option>
+                        <option>حاجی آباد</option>
+                        <option>سه قلعه</option>
+                        <option>آرین شهر</option>
+                        <option>مود</option>
+                        <option>خوسف</option>
+                        <option>قهستان</option>
+                        <option>بشرویه</option>
+                        <option>سرایان</option>
+                        <option>خضری دشت بیاض</option>
+                        <option>طبس</option>
+                        <option>اسدیه</option>
+                        <option>زهان</option>
+                        <option>بار</option>
+                        <option>نیل شهر</option>
+                        <option>جنگل</option>
+                        <option>درود</option>
+                        <option>رباط سنگ</option>
+                        <option>سلطان آباد</option>
+                        <option>فریمان</option>
+                        <option>گناباد</option>
+                        <option>کاریز</option>
+                        <option>همت آباد</option>
+                        <option>سلامی</option>
+                        <option>باجگیران</option>
+                        <option>بجستان</option>
+                        <option>چناران</option>
+                        <option>درگز</option>
+                        <option>کلات</option>
+                        <option>چکنه</option>
+                        <option>نصرآباد</option>
+                        <option>بردسکن</option>
+                        <option>مشهد</option>
+                        <option>کدکن</option>
+                        <option>نقاب</option>
+                        <option>قلندرآباد</option>
+                        <option>کاشمر</option>
+                        <option>شاندیز</option>
+                        <option>نشتیفان</option>
+                        <option>ششتمد</option>
+                        <option>شادمهر</option>
+                        <option>عشق آباد</option>
+                        <option>چاپشلو</option>
+                        <option>رشتخوار</option>
+                        <option>قدمگاه</option>
+                        <option>صالح آباد</option>
+                        <option>داورزن</option>
+                        <option>فرهادگرد</option>
+                        <option>کاخک</option>
+                        <option>مشهدریزه</option>
+                        <option>جغتای</option>
+                        <option>مزدآوند</option>
+                        <option>قوچان</option>
+                        <option>یونسی</option>
+                        <option>سنگان</option>
+                        <option>نوخندان</option>
+                        <option>کندر</option>
+                        <option>نیشابور</option>
+                        <option>احمدابادصولت</option>
+                        <option>شهراباد</option>
+                        <option>رضویه</option>
+                        <option>تربت حیدریه</option>
+                        <option>باخرز</option>
+                        <option>سفیدسنگ</option>
+                        <option>بیدخت</option>
+                        <option>تایباد</option>
+                        <option>فیروزه</option>
+                        <option>قاسم آباد</option>
+                        <option>سبزوار</option>
+                        <option>فیض آباد</option>
+                        <option>گلمکان</option>
+                        <option>لطف آباد</option>
+                        <option>شهرزو</option>
+                        <option>خرو</option>
+                        <option>تربت جام</option>
+                        <option>انابد</option>
+                        <option>ملک آباد</option>
+                        <option>بایک</option>
+                        <option>دولت آباد</option>
+                        <option>سرخس</option>
+                        <option>ریوش</option>
+                        <option>طرقبه</option>
+                        <option>خواف</option>
+                        <option>روداب</option>
+                        <option>خلیل آباد</option>
+                        <option>چناران شهر</option>
+                        <option>راز</option>
+                        <option>پیش قلعه</option>
+                        <option>قوشخانه</option>
+                        <option>شوقان</option>
+                        <option>اسفراین</option>
+                        <option>گرمه</option>
+                        <option>قاضی</option>
+                        <option>شیروان</option>
+                        <option>حصارگرمخان</option>
+                        <option>آشخانه</option>
+                        <option>تیتکانلو</option>
+                        <option>جاجرم</option>
+                        <option>بجنورد</option>
+                        <option>درق</option>
+                        <option>آوا</option>
+                        <option>زیارت</option>
+                        <option>سنخواست</option>
+                        <option>صفی آباد</option>
+                        <option>ایور</option>
+                        <option>فاروج</option>
+                        <option>لوجلی</option>
+                        <option>هفتگل</option>
+                        <option>بیدروبه</option>
+                        <option>شاوور</option>
+                        <option>حمزه</option>
+                        <option>گتوند</option>
+                        <option>شرافت</option>
+                        <option>منصوریه</option>
+                        <option>زهره</option>
+                        <option>رامهرمز</option>
+                        <option>بندرامام خمینی</option>
+                        <option>کوت عبداله</option>
+                        <option>میداود</option>
+                        <option>چغامیش</option>
+                        <option>ملاثانی</option>
+                        <option>چم گلک</option>
+                        <option>حر</option>
+                        <option>شمس آباد</option>
+                        <option>آبژدان</option>
+                        <option>چویبده</option>
+                        <option>مسجدسلیمان</option>
+                        <option>مقاومت</option>
+                        <option>ترکالکی</option>
+                        <option>دارخوین</option>
+                        <option>سردشت</option>
+                        <option>لالی</option>
+                        <option>کوت سیدنعیم</option>
+                        <option>حمیدیه</option>
+                        <option>دهدز</option>
+                        <option>قلعه تل</option>
+                        <option>میانرود</option>
+                        <option>رفیع</option>
+                        <option>اندیمشک</option>
+                        <option>الوان</option>
+                        <option>سالند</option>
+                        <option>صالح شهر</option>
+                        <option>اروندکنار</option>
+                        <option>سرداران</option>
+                        <option>تشان</option>
+                        <option>رامشیر</option>
+                        <option>شادگان</option>
+                        <option>بندرماهشهر</option>
+                        <option>جایزان</option>
+                        <option>بستان</option>
+                        <option>ویس</option>
+                        <option>اهواز</option>
+                        <option>فتح المبین</option>
+                        <option>شهر امام</option>
+                        <option>قلعه خواجه</option>
+                        <option>حسینیه</option>
+                        <option>گلگیر</option>
+                        <option>مینوشهر</option>
+                        <option>سماله</option>
+                        <option>شوشتر</option>
+                        <option>بهبهان</option>
+                        <option>هندیجان</option>
+                        <option>ابوحمیظه</option>
+                        <option>آغاجاری</option>
+                        <option>ایذه</option>
+                        <option>صیدون</option>
+                        <option>سیاه منصور</option>
+                        <option>هویزه</option>
+                        <option>آزادی</option>
+                        <option>شوش</option>
+                        <option>دزفول</option>
+                        <option>جنت مکان</option>
+                        <option>آبادان</option>
+                        <option>گوریه</option>
+                        <option>خرمشهر</option>
+                        <option>مشراگه</option>
+                        <option>خنافره</option>
+                        <option>چمران</option>
+                        <option>امیدیه</option>
+                        <option>سوسنگرد</option>
+                        <option>شیبان</option>
+                        <option>الهایی</option>
+                        <option>باغ ملک</option>
+                        <option>صفی آباد</option>
+                        <option>سجاس</option>
+                        <option>زرین رود</option>
+                        <option>آب بر</option>
+                        <option>ارمغانخانه</option>
+                        <option>کرسف</option>
+                        <option>هیدج</option>
+                        <option>سلطانیه</option>
+                        <option>خرمدره</option>
+                        <option>نیک پی</option>
+                        <option>قیدار</option>
+                        <option>ابهر</option>
+                        <option>دندی</option>
+                        <option>حلب</option>
+                        <option>نوربهار</option>
+                        <option>گرماب</option>
+                        <option>چورزق</option>
+                        <option>زنجان</option>
+                        <option>سهرورد</option>
+                        <option>صایین قلعه</option>
+                        <option>ماه نشان</option>
+                        <option>زرین آباد</option>
+                        <option>ایوانکی</option>
+                        <option>مجن</option>
+                        <option>دامغان</option>
+                        <option>سرخه</option>
+                        <option>مهدی شهر</option>
+                        <option>شاهرود</option>
+                        <option>سمنان</option>
+                        <option>کهن آباد</option>
+                        <option>گرمسار</option>
+                        <option>کلاته خیج</option>
+                        <option>دیباج</option>
+                        <option>درجزین</option>
+                        <option>رودیان</option>
+                        <option>بسطام</option>
+                        <option>امیریه</option>
+                        <option>میامی</option>
+                        <option>شهمیرزاد</option>
+                        <option>بیارجمند</option>
+                        <option>کلاته</option>
+                        <option>آرادان</option>
+                        <option>محمدی</option>
+                        <option>شهرک علی اکبر</option>
+                        <option>بنجار</option>
+                        <option>گلمورتی</option>
+                        <option>نگور</option>
+                        <option>راسک</option>
+                        <option>بنت</option>
+                        <option>قصرقند</option>
+                        <option>جالق</option>
+                        <option>هیدوچ</option>
+                        <option>نوک آباد</option>
+                        <option>زهک</option>
+                        <option>بمپور</option>
+                        <option>پیشین</option>
+                        <option>گشت</option>
+                        <option>محمدآباد</option>
+                        <option>زاهدان</option>
+                        <option>زابلی</option>
+                        <option>چاه بهار</option>
+                        <option>زرآباد</option>
+                        <option>بزمان</option>
+                        <option>اسپکه</option>
+                        <option>فنوج</option>
+                        <option>سراوان</option>
+                        <option>ادیمی</option>
+                        <option>زابل</option>
+                        <option>دوست محمد</option>
+                        <option>ایرانشهر</option>
+                        <option>سرباز</option>
+                        <option>سیرکان</option>
+                        <option>میرجاوه</option>
+                        <option>نصرت آباد</option>
+                        <option>سوران</option>
+                        <option>خاش</option>
+                        <option>کنارک</option>
+                        <option>محمدان</option>
+                        <option>نیک شهر</option>
+                        <option>کازرون</option>
+                        <option>کارزین (فتح آباد)</option>
+                        <option>فدامی</option>
+                        <option>خومه زار</option>
+                        <option>سلطان شهر</option>
+                        <option>فیروزآباد</option>
+                        <option>دبیران</option>
+                        <option>باب انار</option>
+                        <option>رامجرد</option>
+                        <option>سروستان</option>
+                        <option>قره بلاغ</option>
+                        <option>ارسنجان</option>
+                        <option>دژکرد</option>
+                        <option>بیرم</option>
+                        <option>دهرم</option>
+                        <option>شیراز</option>
+                        <option>ایزدخواست</option>
+                        <option>علامرودشت</option>
+                        <option>اوز</option>
+                        <option>وراوی</option>
+                        <option>بیضا</option>
+                        <option>نی ریز</option>
+                        <option>کنارتخته</option>
+                        <option>امام شهر</option>
+                        <option>جهرم</option>
+                        <option>بابامنیر</option>
+                        <option>گراش</option>
+                        <option>فسا</option>
+                        <option>شهرپیر</option>
+                        <option>حسن اباد</option>
+                        <option>کامفیروز</option>
+                        <option>خنج</option>
+                        <option>خانه زنیان</option>
+                        <option>استهبان</option>
+                        <option>بوانات</option>
+                        <option>لطیفی</option>
+                        <option>فراشبند</option>
+                        <option>زرقان</option>
+                        <option>صغاد</option>
+                        <option>اشکنان</option>
+                        <option>قایمیه</option>
+                        <option>گله دار</option>
+                        <option>دوبرجی</option>
+                        <option>آباده طشک</option>
+                        <option>خرامه</option>
+                        <option>میمند</option>
+                        <option>افزر</option>
+                        <option>دوزه</option>
+                        <option>سیدان</option>
+                        <option>کوپن</option>
+                        <option>زاهدشهر</option>
+                        <option>قادراباد</option>
+                        <option>سده</option>
+                        <option>بنارویه</option>
+                        <option>سعادت شهر</option>
+                        <option>شهرصدرا</option>
+                        <option>سورمق</option>
+                        <option>حسامی</option>
+                        <option>جویم</option>
+                        <option>خوزی</option>
+                        <option>اردکان</option>
+                        <option>قطرویه</option>
+                        <option>نودان</option>
+                        <option>مبارک آباددیز</option>
+                        <option>داراب</option>
+                        <option>نورآباد</option>
+                        <option>کوار</option>
+                        <option>نوبندگان</option>
+                        <option>حاجی آباد</option>
+                        <option>خاوران</option>
+                        <option>مرودشت</option>
+                        <option>کوهنجان</option>
+                        <option>ششده</option>
+                        <option>مزایجان</option>
+                        <option>ایج</option>
+                        <option>خور</option>
+                        <option>نوجین</option>
+                        <option>لپویی</option>
+                        <option>بهمن</option>
+                        <option>اهل</option>
+                        <option>خشت</option>
+                        <option>مهر</option>
+                        <option>جنت شهر</option>
+                        <option>مشکان</option>
+                        <option>بالاده</option>
+                        <option>قیر</option>
+                        <option>قطب آباد</option>
+                        <option>خانیمن</option>
+                        <option>مصیری</option>
+                        <option>میانشهر</option>
+                        <option>صفاشهر</option>
+                        <option>اقلید</option>
+                        <option>عمادده</option>
+                        <option>مادرسلیمان</option>
+                        <option>داریان</option>
+                        <option>رونیز</option>
+                        <option>کره ای</option>
+                        <option>لار</option>
+                        <option>اسیر</option>
+                        <option>هماشهر</option>
+                        <option>آباده</option>
+                        <option>لامرد</option>
+                        <option>سگزآباد</option>
+                        <option>بیدستان</option>
+                        <option>کوهین</option>
+                        <option>رازمیان</option>
+                        <option>خرمدشت</option>
+                        <option>آبگرم</option>
+                        <option>شال</option>
+                        <option>شریفیه</option>
+                        <option>اقبالیه</option>
+                        <option>نرجه</option>
+                        <option>ارداق</option>
+                        <option>الوند</option>
+                        <option>خاکعلی</option>
+                        <option>سیردان</option>
+                        <option>ضیاڈآباد</option>
+                        <option>بویین زهرا</option>
+                        <option>محمدیه</option>
+                        <option>محمودآبادنمونه</option>
+                        <option>معلم کلایه</option>
+                        <option>اسفرورین</option>
+                        <option>آوج</option>
+                        <option>دانسفهان</option>
+                        <option>آبیک</option>
+                        <option>قزوین</option>
+                        <option>تاکستان</option>
+                        <option>کهک</option>
+                        <option>قم</option>
+                        <option>سلفچگان</option>
+                        <option>جعفریه</option>
+                        <option>قنوات</option>
+                        <option>دستجرد</option>
+                        <option>قروه</option>
+                        <option>توپ آغاج</option>
+                        <option>سروآباد</option>
+                        <option>بویین سفلی</option>
+                        <option>زرینه</option>
+                        <option>دلبران</option>
+                        <option>سنندج</option>
+                        <option>یاسوکند</option>
+                        <option>موچش</option>
+                        <option>بانه</option>
+                        <option>مریوان</option>
+                        <option>سریش آباد</option>
+                        <option>صاحب</option>
+                        <option>دهگلان</option>
+                        <option>بابارشانی</option>
+                        <option>دیواندره</option>
+                        <option>برده رشه</option>
+                        <option>شویشه</option>
+                        <option>بیجار</option>
+                        <option>اورامان تخت</option>
+                        <option>کانی سور</option>
+                        <option>کانی دینار</option>
+                        <option>دزج</option>
+                        <option>سقز</option>
+                        <option>بلبان آباد</option>
+                        <option>پیرتاج</option>
+                        <option>کامیاران</option>
+                        <option>آرمرده</option>
+                        <option>چناره</option>
+                        <option>کهنوج</option>
+                        <option>بلوک</option>
+                        <option>پاریز</option>
+                        <option>گنبکی</option>
+                        <option>زنگی آباد</option>
+                        <option>بم</option>
+                        <option>خانوک</option>
+                        <option>کیانشهر</option>
+                        <option>جوپار</option>
+                        <option>عنبرآباد</option>
+                        <option>جوزم</option>
+                        <option>نظام شهر</option>
+                        <option>لاله زار</option>
+                        <option>کشکوییه</option>
+                        <option>زیدآباد</option>
+                        <option>هنزا</option>
+                        <option>چترود</option>
+                        <option>جبالبارز</option>
+                        <option>سیرجان</option>
+                        <option>رودبار</option>
+                        <option>کرمان</option>
+                        <option>بافت</option>
+                        <option>صفاییه</option>
+                        <option>منوجان</option>
+                        <option>اندوهجرد</option>
+                        <option>هجدک</option>
+                        <option>خورسند</option>
+                        <option>امین شهر</option>
+                        <option>بردسیر</option>
+                        <option>رفسنجان</option>
+                        <option>هماشهر</option>
+                        <option>محمدآباد</option>
+                        <option>اختیارآباد</option>
+                        <option>بروات</option>
+                        <option>ریحان</option>
+                        <option>کوهبنان</option>
+                        <option>ماهان</option>
+                        <option>دوساری</option>
+                        <option>دهج</option>
+                        <option>فاریاب</option>
+                        <option>گلزار</option>
+                        <option>بهرمان</option>
+                        <option>بلورد</option>
+                        <option>فهرج</option>
+                        <option>کاظم آباد</option>
+                        <option>جیرفت</option>
+                        <option>نجف شهر</option>
+                        <option>قلعه گنج</option>
+                        <option>باغین</option>
+                        <option>بزنجان</option>
+                        <option>زرند</option>
+                        <option>نودژ</option>
+                        <option>گلباف</option>
+                        <option>راور</option>
+                        <option>خاتون اباد</option>
+                        <option>نرماشیر</option>
+                        <option>دشتکار</option>
+                        <option>مس سرچشمه</option>
+                        <option>خواجو شهر</option>
+                        <option>رابر</option>
+                        <option>راین</option>
+                        <option>درب بهشت</option>
+                        <option>یزدان شهر</option>
+                        <option>زهکلوت</option>
+                        <option>محی آباد</option>
+                        <option>مردهک</option>
+                        <option>شهداد</option>
+                        <option>ارزوییه</option>
+                        <option>نگار</option>
+                        <option>شهربابک</option>
+                        <option>انار</option>
+                        <option>سنقر</option>
+                        <option>شاهو</option>
+                        <option>بانوره</option>
+                        <option>تازه آباد</option>
+                        <option>هلشی</option>
+                        <option>جوانرود</option>
+                        <option>قصرشیرین</option>
+                        <option>نوسود</option>
+                        <option>کرند</option>
+                        <option>کوزران</option>
+                        <option>بیستون</option>
+                        <option>حمیل</option>
+                        <option>گیلانغرب</option>
+                        <option>سطر</option>
+                        <option>روانسر</option>
+                        <option>پاوه</option>
+                        <option>ازگله</option>
+                        <option>کرمانشاه</option>
+                        <option>میان راهان</option>
+                        <option>کنگاور</option>
+                        <option>سرپل ذهاب</option>
+                        <option>ریجاب</option>
+                        <option>باینگان</option>
+                        <option>هرسین</option>
+                        <option>اسلام آبادغرب</option>
+                        <option>سرمست</option>
+                        <option>سومار</option>
+                        <option>نودشه</option>
+                        <option>گهواره</option>
+                        <option>رباط</option>
+                        <option>صحنه</option>
+                        <option>گودین</option>
+                        <option>گراب سفلی</option>
+                        <option>لنده</option>
+                        <option>سی سخت</option>
+                        <option>دهدشت</option>
+                        <option>یاسوج</option>
+                        <option>سرفاریاب</option>
+                        <option>دوگنبدان</option>
+                        <option>چیتاب</option>
+                        <option>لیکک</option>
+                        <option>دیشموک</option>
+                        <option>مادوان</option>
+                        <option>باشت</option>
+                        <option>پاتاوه</option>
+                        <option>قلعه رییسی</option>
+                        <option>مارگون</option>
+                        <option>چرام</option>
+                        <option>سوق</option>
+                        <option>سیمین شهر</option>
+                        <option>مزرعه</option>
+                        <option>رامیان</option>
+                        <option>فراغی</option>
+                        <option>گنبدکاووس</option>
+                        <option>کردکوی</option>
+                        <option>مراوه</option>
+                        <option>بندرترکمن</option>
+                        <option>نگین شهر</option>
+                        <option>آق قلا</option>
+                        <option>سرخنکلاته</option>
+                        <option>گالیکش</option>
+                        <option>سنگدوین</option>
+                        <option>دلند</option>
+                        <option>بندرگز</option>
+                        <option>نوده خاندوز</option>
+                        <option>مینودشت</option>
+                        <option>گرگان</option>
+                        <option>گمیش تپه</option>
+                        <option>علی اباد</option>
+                        <option>خان ببین</option>
+                        <option>کلاله</option>
+                        <option>اینچه برون</option>
+                        <option>فاضل آباد</option>
+                        <option>تاتارعلیا</option>
+                        <option>نوکنده</option>
+                        <option>آزادشهر</option>
+                        <option>انبارآلوم</option>
+                        <option>جلین</option>
+                        <option>منجیل</option>
+                        <option>شلمان</option>
+                        <option>خشکبیجار</option>
+                        <option>ماکلوان</option>
+                        <option>سنگر</option>
+                        <option>مرجقل</option>
+                        <option>لیسار</option>
+                        <option>رضوانشهر</option>
+                        <option>رحیم آباد</option>
+                        <option>لوندویل</option>
+                        <option>احمدسرگوراب</option>
+                        <option>لوشان</option>
+                        <option>اطاقور</option>
+                        <option>لشت نشاء</option>
+                        <option>فومن</option>
+                        <option>چوبر</option>
+                        <option>بازار جمعه</option>
+                        <option>کلاچای</option>
+                        <option>بندرانزلی</option>
+                        <option>املش</option>
+                        <option>رستم آباد</option>
+                        <option>لاهیجان</option>
+                        <option>توتکابن</option>
+                        <option>لنگرود</option>
+                        <option>کوچصفهان</option>
+                        <option>صومعه سرا</option>
+                        <option>اسالم</option>
+                        <option>دیلمان</option>
+                        <option>رودسر</option>
+                        <option>کیاشهر</option>
+                        <option>شفت</option>
+                        <option>رودبار</option>
+                        <option>کومله</option>
+                        <option>رشت</option>
+                        <option>ماسوله</option>
+                        <option>خمام</option>
+                        <option>ماسال</option>
+                        <option>واجارگاه</option>
+                        <option>هشتپر (تالش)</option>
+                        <option>پره سر</option>
+                        <option>بره سر</option>
+                        <option>آستارا</option>
+                        <option>رودبنه</option>
+                        <option>جیرنده</option>
+                        <option>چاف و چمخاله</option>
+                        <option>لولمان</option>
+                        <option>گوراب زرمیخ</option>
+                        <option>حویق</option>
+                        <option>سیاهکل</option>
+                        <option>چابکسر</option>
+                        <option>آستانه اشرفیه</option>
+                        <option>رانکوه</option>
+                        <option>چالانچولان</option>
+                        <option>بیران شهر</option>
+                        <option>ویسیان</option>
+                        <option>شول آباد</option>
+                        <option>پلدختر</option>
+                        <option>کوهدشت</option>
+                        <option>هفت چشمه</option>
+                        <option>بروجرد</option>
+                        <option>الشتر</option>
+                        <option>مومن آباد</option>
+                        <option>دورود</option>
+                        <option>زاغه</option>
+                        <option>چقابل</option>
+                        <option>الیگودرز</option>
+                        <option>معمولان</option>
+                        <option>کوهنانی</option>
+                        <option>نورآباد</option>
+                        <option>سپیددشت</option>
+                        <option>سراب دوره</option>
+                        <option>ازنا</option>
+                        <option>گراب</option>
+                        <option>خرم آباد</option>
+                        <option>اشترینان</option>
+                        <option>فیروزآباد</option>
+                        <option>درب گنبد</option>
+                        <option>آستانه</option>
+                        <option>خنجین</option>
+                        <option>نراق</option>
+                        <option>کمیجان</option>
+                        <option>آشتیان</option>
+                        <option>رازقان</option>
+                        <option>مهاجران</option>
+                        <option>غرق آباد</option>
+                        <option>خنداب</option>
+                        <option>قورچی باشی</option>
+                        <option>خشکرود</option>
+                        <option>ساروق</option>
+                        <option>محلات</option>
+                        <option>شازند</option>
+                        <option>ساوه</option>
+                        <option>میلاجرد</option>
+                        <option>تفرش</option>
+                        <option>زاویه</option>
+                        <option>اراک</option>
+                        <option>توره</option>
+                        <option>نوبران</option>
+                        <option>فرمهین</option>
+                        <option>دلیجان</option>
+                        <option>پرندک</option>
+                        <option>کارچان</option>
+                        <option>نیمور</option>
+                        <option>هندودر</option>
+                        <option>آوه</option>
+                        <option>جاورسیان</option>
+                        <option>خمین</option>
+                        <option>مامونیه</option>
+                        <option>داودآباد</option>
+                        <option>شهباز</option>
+                        <option>بیکاء</option>
+                        <option>تیرور</option>
+                        <option>گروک</option>
+                        <option>قشم</option>
+                        <option>کوشکنار</option>
+                        <option>کیش</option>
+                        <option>سرگز</option>
+                        <option>بندرعباس</option>
+                        <option>زیارتعلی</option>
+                        <option>سندرک</option>
+                        <option>کوهستک</option>
+                        <option>لمزان</option>
+                        <option>رویدر</option>
+                        <option>قلعه قاضی</option>
+                        <option>فارغان</option>
+                        <option>ابوموسی</option>
+                        <option>هشتبندی</option>
+                        <option>سردشت</option>
+                        <option>درگهان</option>
+                        <option>پارسیان</option>
+                        <option>کنگ</option>
+                        <option>جناح</option>
+                        <option>تازیان پایین</option>
+                        <option>دهبارز</option>
+                        <option>میناب</option>
+                        <option>سیریک</option>
+                        <option>سوزا</option>
+                        <option>خمیر</option>
+                        <option>چارک</option>
+                        <option>حاجی اباد</option>
+                        <option>فین</option>
+                        <option>بندرجاسک</option>
+                        <option>گوهران</option>
+                        <option>هرمز</option>
+                        <option>دشتی</option>
+                        <option>بندرلنگه</option>
+                        <option>بستک</option>
+                        <option>تخت</option>
+                        <option>زنگنه</option>
+                        <option>دمق</option>
+                        <option>سرکان</option>
+                        <option>آجین</option>
+                        <option>جورقان</option>
+                        <option>برزول</option>
+                        <option>فامنین</option>
+                        <option>سامن</option>
+                        <option>بهار</option>
+                        <option>فرسفج</option>
+                        <option>شیرین سو</option>
+                        <option>مریانج</option>
+                        <option>فیروزان</option>
+                        <option>قروه درجزین</option>
+                        <option>ازندریان</option>
+                        <option>لالجین</option>
+                        <option>گل تپه</option>
+                        <option>گیان</option>
+                        <option>ملایر</option>
+                        <option>صالح آباد</option>
+                        <option>تویسرکان</option>
+                        <option>اسدآباد</option>
+                        <option>همدان</option>
+                        <option>نهاوند</option>
+                        <option>رزن</option>
+                        <option>جوکار</option>
+                        <option>مهاجران</option>
+                        <option>کبودرآهنگ</option>
+                        <option>قهاوند</option>
+                        <option>مروست</option>
+                        <option>مهردشت</option>
+                        <option>حمیدیا</option>
+                        <option>تفت</option>
+                        <option>اشکذر</option>
+                        <option>ندوشن</option>
+                        <option>یزد</option>
+                        <option>عقدا</option>
+                        <option>بهاباد</option>
+                        <option>ابرکوه</option>
+                        <option>زارچ</option>
+                        <option>نیر</option>
+                        <option>اردکان</option>
+                        <option>هرات</option>
+                        <option>بفروییه</option>
+                        <option>شاهدیه</option>
+                        <option>بافق</option>
+                        <option>خضرآباد</option>
+                        <option>میبد</option>
+                        <option>مهریز</option>
+                        <option>احمدآباد</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col mt-6">
+            <label for="name" class="font-bold input_seller_label mr-2 my-1 font_all">آدرس</label>
+            <input type="text" id="name" style="color: #a636327e" value="محله - خیابان اصلی - پلاک - واحد" class="input_seller pr-2 text-lg font_all_input">
+        </div>
+        <div class="flex flex-col mt-6">
+            <label for="name" class="font-bold input_seller_label mr-2 mt-2 font_all">تلفن ثابت</label>
+            <div class="grid grid-cols-4 gap-6">
+
+                <div class="flex flex-col mt-0 col-span-3">
+                    <input type="tel" id="name" class="input_seller pr-2 text-lg font_all_input text-left">
+
+                </div>
+                <div class="flex flex-col mt-0 col-span-1">
+
+                    <input type="tel" id="name" class="input_seller pr-2 text-lg font_all_input text-center">
+
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col mt-6">
+            <label for="name" class="font-bold input_seller_label mr-2 my-1 font_all">تلفن همراه</label>
+            <input type="tel" id="name" class="input_seller pr-2 text-lg font_all_input">
+        </div>
+        <div class="flex flex-col mt-6">
+            <label for="name" class="font-bold input_seller_label mr-2 my-1 font_all">نام فروشگاه</label>
+            <input type="text" id="name" class="input_seller pr-2 text-lg font_all_input">
+        </div>
+        <div class="flex flex-col mt-6">
+            <label for="name" class="font-bold input_seller_label mr-2 my-1 font_all">شماره شبا</label>
+            <input type="text" id="name" class="input_seller pr-2 text-lg font_all_input">
+        </div>
+        <div class="flex flex-col mt-6">
+            <label for="name" class="font-bold input_seller_label mr-2 my-1 font_all">قصد فروش چه کالا هایی را دارید ؟</label>
+            <select name="cars" id="year_select" style="color: #a636327e" class="styled-select input_seller pr-2 text-lg mt-3 font_all_input ">
+                <option class="input_seller_label opacity ">مثال :‌ گروه گوشی مبایل - لوازم ورزشی و ...</option>
+
+        </select>
+        </div>
+        <div class="flex flex-col mt-6 ">
+            <label for="name " class="font-bold input_seller_label mr-2 my-1 font_all ">نام خانوادگی</label>
+            <select name="cars " id="year_select " class=" styled-select input_seller pr-2 text-lg mt-3 font_all_input ">
+                <option>0-10</option>
+                <option>10-20</option>
+                <option>20-50</option>
+                <option>finites-50</option>
+
+        </select>
+        </div>
+    </form>
+    <div class="w-full flex justify-center mt-10 ">
+        <div class=" bottom-0 flex justify-center w-full ">
+            <span class="mx-12 mb-3 rounded-full flex justify-center w-full py-4 text-lg font-bold bounceIn text-white submit_information_btn ">ادامه</span>
+        </div>
+    </div>
+
+    <script src="/assets/js/jalali.js "></script>
+    <script>
+        let day_select = document.querySelector("#day_select ");
+        var i = 1;
+        for (i; i <= 31; i++) {
+            var node = document.createElement("option");
+            var textnode = document.createTextNode(`${i}`);
+            node.appendChild(textnode);
+            node.setAttribute("value", `${i}`);
+            day_select.appendChild(node);
+        }
+        let month_select = document.querySelector("#month_select ");
+        var i = 1;
+        for (i; i <= 12; i++) {
+            var node = document.createElement("option");
+            var textnode = document.createTextNode(`${i}`);
+            node.appendChild(textnode);
+            node.setAttribute("value", `${i}`);
+            month_select.appendChild(node);
+        }
+
+        let year_select = document.querySelector("#year_select ");
+
+        var Xmas = new Date();
+        var year = gregorian_to_jalali(
+            Xmas.getFullYear(),
+            Xmas.getMonth(),
+            Xmas.getDay()
+        );
+
+        var i = year[0] - 100;
+
+        for (i; i <= year[0]; i++) {
+            var node = document.createElement("option");
+            var textnode = document.createTextNode(`${i}`);
+            node.appendChild(textnode);
+            node.setAttribute("value", `${i}`);
+            year_select.appendChild(node);
+        }
+    </script>
+    <!-- drawer -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script>
+        // iamges
+        $(".preview4").click(function() {
+            $("#upload1").click();
+        });
+
+        $("#upload1").change(function() {
+            preview4(this);
+        });
+
+        $(".preview5").click(function() {
+            $("#upload1").click();
+        });
+
+        $("#upload1").change(function() {
+            preview4(this);
+        });
+
+        function preview4(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function(e) {
+                    $('.preview4').attr('src', e.target.result);
+                };
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+    </script>
+</body>
+
+</html>
