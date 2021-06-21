@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/assets/tailwindcss/tailwind.css" />
+    <link rel="stylesheet" href="/styles/css/operators.css" />
+
+    <title>بخچه کرمان</title>
+</head>
+
+<body class="flex xs:w-full md:w-2/3 lg:w-1/2 mx-auto flex-col relative h-screen ">
+    <div class="mt-0 w-full shadow-cc flex flex-col bg-white">
+        <div class="flex justify-around mt-3">
+            <a href="#" id="btn_1" class="w-full text-center p-3 font-bold" style="border-right: 1px solid #eee;">همه محصولات ها</a>
+            <a href="#" id="btn_2" class="w-full text-center p-3  font-bold" style="border-right: 1px solid #eee; ">محصولات جدید</a>
+        </div>
+        <div class="flex w-full justify-start mt-1 " id="active_b">
+            <div class="w-1/2 tab_active "></div>
+        </div>
+    </div>
+    <div class="flex flex-col relative" id="sec1">
+        <section class="px-8 md:px-12 flex justify-center items-start bg_search">
+            <img src="/img/ادمین/Group 88@3x.png" class="w-8 mt-3 c" alt="search">
+            <input type="text" class="w-full px-1 py-4 bg_search  text-md md:text-base" placeholder="جست و جو در محصولات ها">
+        </section>
+        <section>
+            <div class="flex mx-6 py-4 border-bottom ite">
+                <div class="flex-none w-16 md:w-20 self-center">
+                    <img src="/img/ادمین/Group 248@3x.png" alt="">
+                </div>
+                <div class="flex-grow self-center mr-5">
+                    <div class="flex my-1">
+                        <span class="font-bold text-md md:text-base tracking-wide text-color">نام محصولات</span>
+                        <span class="font-bold text-md md:text-base tracking-wide text-color mx-1">:</span>
+                        <span class="font-bold text-md md:text-base tracking-wide text-color">آرزو زرکش</span>
+                    </div>
+                    <div class="flex my-1">
+                        <span class="font-bold text-md md:text-base tracking-wide text-color">نام غرفه</span>
+                        <span class="font-bold text-md md:text-base tracking-wide text-color mx-1">:</span>
+                        <span class="font-bold text-md md:text-base tracking-wide text-color">14</span>
+                    </div>
+                    <div class="flex my-1">
+                        <span class="font-bold text-md md:text-base tracking-wide text-color">قیمت</span>
+                        <span class="font-bold text-md md:text-base tracking-wide text-color mx-1">:</span>
+                        <span class="font-bold text-md md:text-base tracking-wide text-color">14</span>
+                    </div>
+                    <div class="flex my-1">
+                        <span class="font-bold text-md md:text-base tracking-wide text-color">موجودی</span>
+                        <span class="font-bold text-md md:text-base tracking-wide text-color mx-1">:</span>
+                        <span class="font-bold text-md md:text-base tracking-wide text-color">14</span>
+                    </div>
+                </div>
+                <div class="flex-none md:w-32 self-end flex flex-col xs:flex-row justify-end">
+                    <button class="bounceIn text-xs md:text-base px-1 md:px-2  btn btn-edit m-1">ویرایش</button>
+                    <button class="bounceIn text-xs md:text-base px-1 md:px-2  btn btn-delete m-1">حذف</button>
+                </div>
+            </div>
+
+        </section>
+    </div>
+    <div id="sec2" class="flex flex-col" style="display: none;">
+        <form action="#" class="px-6 py-5">
+            <div class="grid grid-cols-3  grid-rows-2 gap-4 h-36">
+                <div class="col-span-2 row-span-2 flex justify-center items-center border-ite bg-white preview4">
+                    <img src="/img/ادمین/add@3x.png" class="w-8 img_plus" alt="img">
+                    <input type="file" class="hidden" id="upload1">
+                </div>
+                <div class="col-span-1 row-span-1 flex justify-center items-center border-ite bg-white preview4">
+                    <img src="/img/ادمین/add@3x.png" class="w-6 img_plus" alt="img">
+                    <input type="file" class="hidden" id="upload1">
+                </div>
+                <div class="col-span-1 row-span-1 flex justify-center items-center border-ite bg-white preview4">
+                    <img src="/img/ادمین/add@3x.png" class="w-6  img_plus" alt="img">
+                    <input type="file" class="hidden" id="upload1">
+                </div>
+            </div>
+
+            <div class="flex flex-col mt-5 relative justify-center">
+                <label for="name" class="font-bold input_seller_label mr-2 my-1">نام محصول</label>
+                <input type="text" id="name" class="input_seller font-bold pr-2 text-lg" placeholder="نام محصول را وارد کنید">
+            </div>
+
+            <div class="flex flex-col mt-5 relative justify-center">
+                <label for="name" class="font-bold input_seller_label mr-2 my-1">دسته بندی محصول</label>
+                <input type="text" id="name" class="input_seller font-bold pr-2 text-lg" placeholder="دسته بندی محصول را وارد کنید">
+            </div>
+            <div class="flex flex-col mt-5 relative justify-center">
+                <label for="name" class="font-bold input_seller_label mr-2 my-1">کد محصول</label>
+                <input type="text" id="name" class="input_seller font-bold pr-2 text-lg" placeholder="کد محصول را وارد کنید">
+            </div>
+
+            <div class="flex flex-col mt-5 relative justify-center">
+                <label for="name" class="font-bold input_seller_label mr-2 my-1">موجودی محصول</label>
+                <input type="text" id="name" class="input_seller font-bold pr-2 text-lg" placeholder="موجودی محصول را وارد کنید">
+            </div>
+            <div class="flex flex-col mt-5 relative justify-center">
+                <label for="name" class="font-bold input_seller_label mr-2 my-1">تخفیف محصول</label>
+                <input type="text" id="name" class="input_seller font-bold pr-2 text-lg" placeholder="تخفیف محصول را وارد کنید">
+            </div>
+
+            <div class="flex flex-col mt-5 relative justify-center">
+                <label for="name" class="font-bold input_seller_label mr-2 my-1">ویژگی محصول</label>
+                <input type="text" id="name" class="input_seller font-bold pr-2 text-lg" placeholder="ویژگی محصول را وارد کنید">
+            </div>
+            <div class="flex justify-center w-full mt-8">
+                <span class="mx-6 mb-3 rounded-full flex justify-center w-full py-4 text-lg font-bold bounceIn text-white submit_information_btn">ثبت اطلاعات</span>
+            </div>
+        </form>
+
+    </div>
+
+    <script>
+        var body = document.querySelector("body")
+        var btn_1 = document.querySelector("#btn_1")
+        var btn_2 = document.querySelector("#btn_2")
+
+
+        var sec1 = document.querySelector("#sec2")
+        var sec2 = document.querySelector("#sec1")
+
+        var active_b = document.querySelector("#active_b")
+
+        btn_1.addEventListener("click", () => {
+            active_b.classList.remove("justify-end")
+            active_b.classList.add("justify-start")
+            sec1.style.display = 'none';
+            sec2.style.display = 'flex';
+            body.style.backgroundColor = '#fff';
+        });
+        btn_2.addEventListener("click", () => {
+            active_b.classList.remove("justify-start")
+            active_b.classList.add("justify-end")
+            sec1.style.display = 'flex';
+            sec2.style.display = 'none';
+            body.style.backgroundColor = '#fbfbfb';
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script>
+        // iamges
+        $(".preview4").click(function() {
+            $("#upload1").click();
+        });
+
+        $("#upload1").change(function() {
+            preview4(this);
+        });
+
+
+        function preview4(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function(e) {
+                    $('.preview4').css('background-image', `url(${e.target.result})`);
+                    $('.img_plus').hide()
+                };
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+    </script>
+</body>
+
+</html>
