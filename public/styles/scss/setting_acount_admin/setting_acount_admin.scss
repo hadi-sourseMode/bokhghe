@@ -1,32 +1,25 @@
 @import "../base";
-
-body{
-    background-color: #fbfbfb;
+body {
+    background: #fbfbfb;
 }
 
 .input_seller {
     border: none;
-    border-bottom: 2px solid #4e4e4e57;
+    border-bottom: 1px solid $admin-color;
     background: #fbfbfb;
 }
+
 .input_seller:focus {
     outline: none;
 }
-.input_seller::placeholder{
-    color: #BDBDBD;
-    font-size: 13px;
-}
+
 .input_seller_label {
-    color: #3a3a3a;
+    color: $admin-color;
 }
+
 .submit_information_btn {
-    background: #3a3a3a;
+    background: $admin-color;
     cursor: pointer;
-}
-.submit_information_btn {
-    background: #3a3a3a;
-    cursor: pointer;
-    letter-spacing: 1px;
 }
 
 .bounceIn:active {
@@ -118,8 +111,14 @@ body{
     }
 }
 
+select {
+    background: url("/img/فروشنده/Polygon\ 4@3x.png") no-repeat left #fbfbfb !important;
+    background-size: 10px !important;
+    -webkit-appearance: none;
+}
+
 .price_class_pony {
-    width: 80px;
+    width: 65px;
     height: 30px;
     padding-top: 4px;
     border: none;
@@ -127,10 +126,14 @@ body{
     border-radius: 5px;
     text-align: center;
     vertical-align: middle;
+    @media (max-width: 380px) {
+        width: 45px !important;
+    }
 }
 
 .price_class_pony:focus {
     outline: none;
+    border-color: rgba(0, 0, 0, 0.281);
 }
 
 .shadow-cc {
@@ -138,93 +141,44 @@ body{
     box-shadow: 0px 0px 13px -2px #0000003b;
 }
 
-.actve_bar_b {
-    color: #3a3a3a;
+input:checked+div {
+    border: 2px solid rgb(221, 221, 221);
 }
 
-.deactve_bar_b {
-    color: #aaa9a9;
+input:checked+div svg {
+    display: block;
 }
 
-.sub_text {
-    color: rgb(151, 151, 151);
+.price_class_pony_cyrcel {
+    border: none;
+    border: 2px solid rgb(221, 221, 221);
+    border-radius: 50%;
 }
 
-.tab_active {
-    border-bottom: 4px solid $admin-color;
-}
-
-.bg_search{
-    background-color: $gray;
-    color: #3a3a3a;
-}
-
-.bg_search:focus{
-outline: none;
-}
-
-.text-color{
-    color: #3a3a3a;
-}
-
-.btn{
-    border-radius: 5px;
-    font-weight: 650;
-}
-.btn:focus{
-    outline: none;
-}
-.btn-edit{
-    color: #b2b2b2;
-    border: 2px solid #b2b2b2;
-}
-.btn-js{
-    color: #6266d9;
-    border: 2px solid #6266d9;
-}
-.btn-delete{
-    color: #be3d3d;
-    border: 2px solid #be3d3d;
-}
-.border-bottom{
-    border-bottom: 2px solid $gray;
-}
-.border-ite{
-    border-radius: 4px;
-    border: 2px solid #dadada;
-
-}
-.submit_information_btn{
-    background-color: $admin-color;
-}
-.submit_delete_btn{
-    background-color: #DA1E1E;
-}
-
-.top_monitoring{
-background-color: #6266d9;
-}
-.time_c{
-    color: #191eaa;
-}
-.hr{
-    border: 1px solid #f3f3f3;
-    margin: 0 30px 0 30px;
-}
-.xs\:text-md{
-    @media (min-width:370px)and(max-width:767px) {
-        font-size: 14px;
-
-        text-shadow: 0px 0px rgb(0, 0, 0);
-            
+.font_all {
+    @media (max-width: 800px) {
+        font-size: 16px !important;
+    }
+    @media (max-width: 500px) {
+        font-size: 15px !important;
+    }
+    @media (max-width: 350px) {
+        font-size: 13px !important;
     }
 }
 
-.input_fi{
-        visibility:hidden;
-        position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
+.font_all_input {
+    @media (max-width: 800px) {
+        font-size: 15px !important;
+    }
+    @media (max-width: 500px) {
+        font-size: 14px !important;
+    }
+    @media (max-width: 350px) {
+        font-size: 12px !important;
+    }
+}
+
+input::placeholder{
+    color: #46464667;
 }

@@ -141,13 +141,14 @@ table {
 }
 
 body {
-  background: #fbfbfb;
+  background: #FBFBFB;
 }
 
 .input_seller {
   border: none;
-  border-bottom: 2px solid #cb8b8a;
+  border-bottom: 2px solid #6266d9;
   background: #fbfbfb;
+  text-align: center;
 }
 
 .input_seller:focus {
@@ -155,11 +156,11 @@ body {
 }
 
 .input_seller_label {
-  color: #a63532;
+  color: #6266d9;
 }
 
 .submit_information_btn {
-  background: #a63532;
+  background: #6266d9;
   cursor: pointer;
 }
 
@@ -200,4 +201,34 @@ body {
     opacity: 1;
     transform: scale3d(1, 1, 1);
   }
+}
+
+.last_singup_text {
+  color: rgba(19, 19, 19, 0.904);
+}
+
+input:checked + div {
+  border: 2px solid #6266d9;
+}
+
+input:checked + div svg {
+  display: block;
+}
+
+.gray_text {
+  color: #909090;
+}
+
+.price_class_pony {
+  border: none;
+  border: 2px solid #dddddd;
+  border-radius: 5px;
+}
+
+.pass_input {
+  letter-spacing: 10px;
+}
+
+.line_text_pass {
+  border-bottom: 2px solid #6266d9;
 }

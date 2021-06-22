@@ -91,8 +91,7 @@ video {
   font-size: 100%;
   font-family: font;
   vertical-align: baseline;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -142,12 +141,12 @@ table {
 }
 
 body {
-  background-color: #fff;
+  background-color: #fbfbfb;
 }
 
 .input_seller {
   border: none;
-  border-bottom: 2px solid #878787;
+  border-bottom: 2px solid #4e4e4e57;
   background: #fbfbfb;
 }
 
@@ -155,24 +154,9 @@ body {
   outline: none;
 }
 
-.input_seller::-webkit-input-placeholder {
-  color: #878787;
-  font-size: 15px;
-}
-
-.input_seller:-ms-input-placeholder {
-  color: #878787;
-  font-size: 15px;
-}
-
-.input_seller::-ms-input-placeholder {
-  color: #878787;
-  font-size: 15px;
-}
-
 .input_seller::placeholder {
-  color: #878787;
-  font-size: 15px;
+  color: #BDBDBD;
+  font-size: 13px;
 }
 
 .input_seller_label {
@@ -191,53 +175,10 @@ body {
 }
 
 .bounceIn:active {
-  -webkit-animation-name: bounceIn;
   animation-name: bounceIn;
-  -webkit-animation-duration: 1s;
   animation-duration: 1s;
-  -webkit-animation-duration: 1.25s;
   animation-duration: 1.25s;
-  -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
-}
-
-@-webkit-keyframes bounceIn {
-  0%,
-  20%,
-  40%,
-  60%,
-  80%,
-  100% {
-    -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-  }
-  0% {
-    opacity: 0;
-    -webkit-transform: scale3d(0.3, 0.3, 0.3);
-    transform: scale3d(0.3, 0.3, 0.3);
-  }
-  20% {
-    -webkit-transform: scale3d(1.1, 1.1, 1.1);
-    transform: scale3d(1.1, 1.1, 1.1);
-  }
-  40% {
-    -webkit-transform: scale3d(0.9, 0.9, 0.9);
-    transform: scale3d(0.9, 0.9, 0.9);
-  }
-  60% {
-    opacity: 1;
-    -webkit-transform: scale3d(1.03, 1.03, 1.03);
-    transform: scale3d(1.03, 1.03, 1.03);
-  }
-  80% {
-    -webkit-transform: scale3d(0.97, 0.97, 0.97);
-    transform: scale3d(0.97, 0.97, 0.97);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-  }
 }
 
 @keyframes bounceIn {
@@ -247,34 +188,27 @@ body {
   60%,
   80%,
   100% {
-    -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   }
   0% {
     opacity: 0;
-    -webkit-transform: scale3d(0.3, 0.3, 0.3);
     transform: scale3d(0.3, 0.3, 0.3);
   }
   20% {
-    -webkit-transform: scale3d(1.1, 1.1, 1.1);
     transform: scale3d(1.1, 1.1, 1.1);
   }
   40% {
-    -webkit-transform: scale3d(0.9, 0.9, 0.9);
     transform: scale3d(0.9, 0.9, 0.9);
   }
   60% {
     opacity: 1;
-    -webkit-transform: scale3d(1.03, 1.03, 1.03);
     transform: scale3d(1.03, 1.03, 1.03);
   }
   80% {
-    -webkit-transform: scale3d(0.97, 0.97, 0.97);
     transform: scale3d(0.97, 0.97, 0.97);
   }
   100% {
     opacity: 1;
-    -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
   }
 }
@@ -295,7 +229,6 @@ body {
 }
 
 .shadow-cc {
-  -webkit-box-shadow: 0px 0px 13px -2px #0000003b;
   box-shadow: 0px 0px 13px -2px #0000003b;
 }
 
@@ -366,7 +299,7 @@ body {
 }
 
 .submit_delete_btn {
-  background-color: #de1e1e;
+  background-color: #DA1E1E;
 }
 
 .top_monitoring {
@@ -381,4 +314,19 @@ body {
   border: 1px solid #f3f3f3;
   margin: 0 30px 0 30px;
 }
-/*# sourceMappingURL=operators.css.map */
+
+@media (min-width: 370px) and (max-width: 767px) {
+  .xs\:text-md {
+    font-size: 14px;
+    text-shadow: 0px 0px black;
+  }
+}
+
+.input_fi {
+  visibility: hidden;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}

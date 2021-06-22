@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/assets/tailwindcss/tailwind.css" />
     <link rel="stylesheet" href="/styles/css/operators.css" />
 
-    <title>بخچه کرمان</title>
+    <title>فروشنده ادمین</title>
 </head>
 
 <body class="flex xs:w-full md:w-2/3 lg:w-1/2 mx-auto flex-col relative h-screen ">
@@ -34,23 +34,23 @@
                 </div>
                 <div class="flex-grow self-center mr-5">
                     <div class="flex my-1">
-                        <span class="font-bold text-md md:text-base tracking-wide text-color">نام فروشنده</span>
-                        <span class="font-bold text-md md:text-base tracking-wide text-color mx-1">:</span>
-                        <span class="font-bold text-md md:text-base tracking-wide text-color">آرزو زرکش</span>
+                        <span class="text-xs xs:text-md md:text-base tracking-wide text-color">نام</span>
+                        <span class="text-xs xs:text-md md:text-base tracking-wide text-color mx-1">:</span>
+                        <span class="text-xs xs:text-md md:text-base tracking-wide text-color">آرزو زرکش</span>
                     </div>
                     <div class="flex my-1">
-                        <span class="font-bold text-md md:text-base tracking-wide text-color">نام غرفه</span>
-                        <span class="font-bold text-md md:text-base tracking-wide text-color mx-1">:</span>
-                        <span class="font-bold text-md md:text-base tracking-wide text-color">14</span>
+                        <span class="text-xs xs:text-md md:text-base tracking-wide text-color">کد فروشنده </span>
+                        <span class="text-xs xs:text-md md:text-base tracking-wide text-color mx-1">:</span>
+                        <span class="text-xs xs:text-md md:text-base tracking-wide text-color">14</span>
                     </div>
                     <div class="flex my-1">
-                        <span class="font-bold text-md md:text-base tracking-wide text-color">قیمت</span>
-                        <span class="font-bold text-md md:text-base tracking-wide text-color mx-1">:</span>
-                        <span class="font-bold text-md md:text-base tracking-wide text-color">14</span>
+                        <span class="text-xs xs:text-md md:text-base tracking-wide text-color">تعداد فروش (درماه)</span>
+                        <span class="text-xs xs:text-md md:text-base tracking-wide text-color mx-1">:</span>
+                        <span class="text-xs xs:text-md md:text-base tracking-wide text-color">14</span>
                     </div>
                 </div>
                 <div class="flex-none md:w-32 self-end flex flex-col xs:flex-row justify-end">
-                    <button class="bounceIn text-xs md:text-base px-1 md:px-2  btn btn-js m-1">ویرایش</button>
+                    <button class="bounceIn text-xs md:text-base px-1 md:px-2  btn btn-js m-1">جزئیات</button>
                 </div>
             </div>
 
@@ -64,23 +64,23 @@
                 </div>
                 <div class="flex-grow self-center mr-5">
                     <div class="flex my-1">
-                        <span class="font-bold text-md md:text-base tracking-wide text-color">نام فروشنده</span>
-                        <span class="font-bold text-md md:text-base tracking-wide text-color mx-1">:</span>
-                        <span class="font-bold text-md md:text-base tracking-wide text-color">آرزو زرکش</span>
+                        <span class="text-xs xs:text-md md:text-base tracking-wide text-color">نام</span>
+                        <span class="text-xs xs:text-md md:text-base tracking-wide text-color mx-1">:</span>
+                        <span class="text-xs xs:text-md md:text-base tracking-wide text-color">آرزو زرکش</span>
                     </div>
                     <div class="flex my-1">
-                        <span class="font-bold text-md md:text-base tracking-wide text-color">نام غرفه</span>
-                        <span class="font-bold text-md md:text-base tracking-wide text-color mx-1">:</span>
-                        <span class="font-bold text-md md:text-base tracking-wide text-color">14</span>
+                        <span class="text-xs xs:text-md md:text-base tracking-wide text-color">کد فروشنده </span>
+                        <span class="text-xs xs:text-md md:text-base tracking-wide text-color mx-1">:</span>
+                        <span class="text-xs xs:text-md md:text-base tracking-wide text-color">14</span>
                     </div>
                     <div class="flex my-1">
-                        <span class="font-bold text-md md:text-base tracking-wide text-color">قیمت</span>
-                        <span class="font-bold text-md md:text-base tracking-wide text-color mx-1">:</span>
-                        <span class="font-bold text-md md:text-base tracking-wide text-color">14</span>
+                        <span class="text-xs xs:text-md md:text-base tracking-wide text-color">تعداد فروش (درماه)</span>
+                        <span class="text-xs xs:text-md md:text-base tracking-wide text-color mx-1">:</span>
+                        <span class="text-xs xs:text-md md:text-base tracking-wide text-color">14</span>
                     </div>
                 </div>
                 <div class="flex-none md:w-32 self-end flex flex-col xs:flex-row justify-end">
-                    <button class="bounceIn text-xs md:text-base px-1 md:px-2  btn btn-js m-1">ویرایش</button>
+                    <button class="bounceIn text-xs md:text-base px-1 md:px-2  btn btn-js m-1">جزئیات</button>
                 </div>
             </div>
 
@@ -92,6 +92,7 @@
         var body = document.querySelector("body")
         var btn_1 = document.querySelector("#btn_1")
         var btn_2 = document.querySelector("#btn_2")
+        btn_2.style.color = "#27272769";
 
 
         var sec1 = document.querySelector("#sec2")
@@ -105,6 +106,8 @@
             sec1.style.display = 'none';
             sec2.style.display = 'flex';
             body.style.backgroundColor = '#fff';
+            btn_2.style.color = "#27272769";
+            btn_1.style.color = "#272727";
         });
         btn_2.addEventListener("click", () => {
             active_b.classList.remove("justify-start")
@@ -112,6 +115,8 @@
             sec1.style.display = 'flex';
             sec2.style.display = 'none';
             body.style.backgroundColor = '#fbfbfb';
+            btn_1.style.color = "#27272769";
+            btn_2.style.color = "#272727";
         });
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>

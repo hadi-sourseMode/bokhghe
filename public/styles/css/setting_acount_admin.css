@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: 'font';
   src: url(../../../assets/font/YekanBakh-Light.ttf);
@@ -146,7 +147,7 @@ body {
 
 .input_seller {
   border: none;
-  border-bottom: 2px solid #cb8b8a;
+  border-bottom: 1px solid #6266d9;
   background: #fbfbfb;
 }
 
@@ -155,11 +156,11 @@ body {
 }
 
 .input_seller_label {
-  color: #a63532;
+  color: #6266d9;
 }
 
 .submit_information_btn {
-  background: #a63532;
+  background: #6266d9;
   cursor: pointer;
 }
 
@@ -200,4 +201,90 @@ body {
     opacity: 1;
     transform: scale3d(1, 1, 1);
   }
+}
+
+select {
+  background: url("/img/فروشنده/Polygon 4@3x.png") no-repeat left #fbfbfb !important;
+  background-size: 10px !important;
+  -webkit-appearance: none;
+}
+
+.price_class_pony {
+  width: 65px;
+  height: 30px;
+  padding-top: 4px;
+  border: none;
+  border: 2px solid #dddddd;
+  border-radius: 5px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+@media (max-width: 380px) {
+  .price_class_pony {
+    width: 45px !important;
+  }
+}
+
+.price_class_pony:focus {
+  outline: none;
+  border-color: rgba(0, 0, 0, 0.281);
+}
+
+.shadow-cc {
+  box-shadow: 0px 0px 13px -2px #0000003b;
+}
+
+input:checked + div {
+  border: 2px solid #dddddd;
+}
+
+input:checked + div svg {
+  display: block;
+}
+
+.price_class_pony_cyrcel {
+  border: none;
+  border: 2px solid #dddddd;
+  border-radius: 50%;
+}
+
+@media (max-width: 800px) {
+  .font_all {
+    font-size: 16px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .font_all {
+    font-size: 15px !important;
+  }
+}
+
+@media (max-width: 350px) {
+  .font_all {
+    font-size: 13px !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .font_all_input {
+    font-size: 15px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .font_all_input {
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width: 350px) {
+  .font_all_input {
+    font-size: 12px !important;
+  }
+}
+
+input::placeholder {
+  color: #46464667;
 }

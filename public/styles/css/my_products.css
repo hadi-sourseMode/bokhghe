@@ -91,8 +91,7 @@ video {
   font-size: 100%;
   font-family: font;
   vertical-align: baseline;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -157,4 +156,3 @@ body {
   background-color: #a63532;
   color: white;
 }
-/*# sourceMappingURL=my_products.css.map */
