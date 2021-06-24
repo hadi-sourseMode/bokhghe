@@ -35,9 +35,17 @@
                 <input type="text" id="name" class="input_seller  pr-2 text-lg" placeholder="نام محصول را وارد کنید">
             </div>
 
-            <div class="flex flex-col mt-5 relative justify-center">
+            <div class="flex flex-col mt-5 relative justify-center" id="fater_select">
                 <label for="name" class="font-bold input_seller_label mr-2 my-1">دسته بندی محصول</label>
-                <input type="text" id="name" class="input_seller  pr-2 text-lg" placeholder="دسته بندی محصول را وارد کنید">
+                <div class="flex w-full items-center">
+                    <select type="text" id="name" class="input_seller  pr-2 text-lg w-full">
+                        <option selected value="دسته بندی محصول را وارد کنید">دسته بندی محصول را وارد کنید</option>
+                        <option value="saab">Saab</option>
+                        <option value="vw">VW</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                    <img src="/img/ادمین/Group 159@3x.png" width="15px" class="cursor-pointer mx-2" id="plus_select" onclick="add_select()" alt="+">
+                </div>
             </div>
             <div class="flex flex-col mt-5 relative justify-center">
                 <label for="name" class="font-bold input_seller_label mr-2 my-1">کد محصول</label>
@@ -79,6 +87,24 @@
             x.setAttribute("placeholder", "ویژگی محصول را وارد کنید");
             x.setAttribute("class", "input_seller  pr-2 text-lg my-2");
             fa.appendChild(x)
+        }
+        function add_select(){
+            let fater_select = document.getElementById("fater_select");
+            let img_plus = document.getElementById("plus_select");
+            img_plus.parentNode.removeChild(img_plus);
+            fater_select.innerHTML += `
+            <div class="flex w-full items-center my-2">
+                    <select type="text" id="name" class="input_seller  pr-2 text-lg w-full">
+                        <option selected value="دسته بندی محصول را وارد کنید">دسته بندی محصول را وارد کنید</option>
+                        <option value="saab">Saab</option>
+                        <option value="vw">VW</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                    <img src="/img/ادمین/Group 159@3x.png" width="15px" class="cursor-pointer mx-2" id="plus_select" onclick="add_select()" alt="+">
+                </div>
+                `;
+                // img_plus.remove();
+                
         }
     </script>
 

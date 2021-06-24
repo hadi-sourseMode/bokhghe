@@ -13,8 +13,12 @@ body{
     outline: none;
 }
 .input_seller::placeholder{
+    color: #BDBDBD ;
+    font-size: 13px ;
+}
+select, option{
     color: #BDBDBD;
-    font-size: 13px;
+    font-size: 13px !important;
 }
 .input_seller_label {
     color: #3a3a3a;
