@@ -339,3 +339,9 @@ select, option {
   bottom: 0;
   top: 0;
 }
+
+@media (min-width: 200px) and (max-width: 406px) {
+  .text-x {
+    font-size: 8px;
+  }
+}

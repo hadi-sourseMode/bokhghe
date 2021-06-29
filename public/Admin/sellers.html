@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="/assets/tailwindcss/tailwind.css" />
+    <link rel="stylesheet" href="/assets/tailwindcss/form_plugin.css" />
+
     <link rel="stylesheet" href="/styles/css/operators.css" />
 
     <title>فروشنده ادمین</title>
@@ -15,13 +17,12 @@
 <body class="flex xs:w-full md:w-2/3 lg:w-1/2 mx-auto flex-col relative h-screen ">
     <div class="mt-0 w-full shadow-cc flex flex-col bg-white">
         <div class="flex justify-around mt-3">
-            <a href="#" id="btn_1" class="w-full text-xs md:text-base text-center p-3 font-bold" style="border-right: 1px solid #eee;">همه فروشنده ها</a>
-            <a href="#" id="btn_2" class="w-full text-xs md:text-base text-center p-3  font-bold" style="border-right: 1px solid #eee; ">فروشنده های برتر</a>
-            <a href="#" id="btn_3" class="w-full text-xs md:text-base text-center p-3  font-bold" style="border-right: 1px solid #eee; ">فروشنده جدید</a>
+            <a href="#" id="btn_1" class="w-full text-x text-xs md:text-base text-center p-3 font-bold tab_active" style="border-right: 1px solid #eee;">همه فروشنده ها</a>
+            <a href="#" id="btn_2" class="w-full text-x text-xs md:text-base text-center p-3  font-bold" style="border-right: 1px solid #eee; ">فروشنده های برتر</a>
+            <a href="#" id="btn_3" class="w-full text-x text-xs md:text-base text-center p-3  font-bold" style="border-right: 1px solid #eee; ">فروشنده جدید</a>
+            <a href="#" id="btn_4" class="w-full text-x text-xs md:text-base text-center p-3  font-bold" style="border-right: 1px solid #eee; "> غیر فعال ها</a>
         </div>
-        <div class="flex w-full justify-start mt-1 " id="active_b">
-            <div class="w-1/3 tab_active "></div>
-        </div>
+
     </div>
     <div class="flex flex-col relative" id="sec1">
         <section class="px-8 md:px-12 flex justify-center items-start bg_search">
@@ -50,14 +51,30 @@
                         <span class="text-xs xs:text-md md:text-base tracking-wide text-color">14</span>
                     </div>
                 </div>
-                <div class="flex-none md:w-32 self-end flex flex-col xs:flex-row justify-end">
-                    <button class="bounceIn text-xs md:text-base px-1 md:px-2  btn btn-js m-1">جزئیات</button>
+                <div class="flex flex-col">
+                    <div class="flex-none md:w-32 self-end flex flex-col xs:flex-row justify-end">
+                        <button class="bounceIn text-xs md:text-base px-1 md:px-2  btn btn-js m-1">جزئیات</button>
+                    </div>
+                                    <div class="flex-none md:w-32 self-end flex flex-col justify-end">
+                        <label class="inline-flex items-center mt-1 mx-1 justify-end items-center">
+                            <span class="ml-2 whitespace-nowrap text-x text-sm" style="color: #8d8d8d;">فعال کردن</span>
+                            <input type="radio" name="ok" class="form-checkbox h-5 w-5 text-yellow-600" style="border: 1px solid #b6b6b6;">
+                        </label>
+                        <label class="inline-flex items-center mt-1 mx-1 justify-end items-center">
+                            <span class="ml-2 whitespace-nowrap text-x sm:text-sm" style="color: #8d8d8d;">غیر فعال کردن</span>
+                            <input type="radio" name="ok" class="form-checkbox h-5 w-5 text-yellow-600" style="border: 1px solid #b6b6b6; color: red !important;">
+                        </label>
+                    </div>
                 </div>
             </div>
 
         </section>
     </div>
     <div id="sec2" class="flex flex-col relative" style="display: none;">
+        <section class="px-8 md:px-12 flex justify-center items-start bg_search">
+            <img src="/img/ادمین/Group 88@3x.png" class="w-8 mt-3 c" alt="search">
+            <input type="text" class="w-full px-1 py-4 bg_search  text-md md:text-base" placeholder="جست و جو در فروشنده ها">
+        </section>
         <section>
             <div class="flex mx-6 py-4 border-bottom ite">
                 <div class="flex-none w-16 md:w-20 self-center">
@@ -80,8 +97,20 @@
                         <span class="text-xs xs:text-md md:text-base tracking-wide text-color">14</span>
                     </div>
                 </div>
+                <div class="flex flex-col">
                 <div class="flex-none md:w-32 self-end flex flex-col xs:flex-row justify-end">
-                    <button class="bounceIn text-xs md:text-base px-1 md:px-2  btn btn-js m-1">جزئیات</button>
+                        <button class="bounceIn text-xs md:text-base px-1 md:px-2  btn btn-js m-1">جزئیات</button>
+                    </div>
+                    <div class="flex-none md:w-32 self-end flex flex-col justify-end">
+                        <label class="inline-flex items-center mt-1 mx-1 justify-end items-center">
+                            <span class="ml-2 whitespace-nowrap text-x text-sm" style="color: #8d8d8d;">فعال کردن</span>
+                            <input type="radio" name="ok" class="form-checkbox h-5 w-5 text-yellow-600" style="border: 1px solid #b6b6b6;">
+                        </label>
+                        <label class="inline-flex items-center mt-1 mx-1 justify-end items-center">
+                            <span class="ml-2 whitespace-nowrap text-x text-sm" style="color: #8d8d8d;">غیر فعال کردن</span>
+                            <input type="radio" name="ok" class="form-checkbox h-5 w-5 text-yellow-600" style="border: 1px solid #b6b6b6; color: red !important;">
+                        </label>
+                    </div>
                 </div>
             </div>
 
@@ -130,56 +159,138 @@
             </div>
         </form>
     </div>
+    <div id="sec4" class="flex flex-col relative" style="display: none;">
+        <section class="px-8 md:px-12 flex justify-center items-start bg_search">
+            <img src="/img/ادمین/Group 88@3x.png" class="w-8 mt-3 c" alt="search">
+            <input type="text" class="w-full px-1 py-4 bg_search  text-md md:text-base" placeholder="جست و جو در فروشنده ها">
+        </section>
+        <section>
+            <div class="flex mx-6 py-4 border-bottom ite">
+                <div class="flex-none w-16 md:w-20 self-center">
+                    <img src="/img/ادمین/Group 248@3x.png" alt="">
+                </div>
+                <div class="flex-grow self-center mr-5">
+                    <div class="flex my-1">
+                        <span class="text-xs xs:text-md md:text-base tracking-wide text-color">نام</span>
+                        <span class="text-xs xs:text-md md:text-base tracking-wide text-color mx-1">:</span>
+                        <span class="text-xs xs:text-md md:text-base tracking-wide text-color">آرزو زرکش</span>
+                    </div>
+                    <div class="flex my-1">
+                        <span class="text-xs xs:text-md md:text-base tracking-wide text-color">کد فروشنده </span>
+                        <span class="text-xs xs:text-md md:text-base tracking-wide text-color mx-1">:</span>
+                        <span class="text-xs xs:text-md md:text-base tracking-wide text-color">14</span>
+                    </div>
+                    <div class="flex my-1">
+                        <span class="text-xs xs:text-md md:text-base tracking-wide text-color">تعداد فروش (درماه)</span>
+                        <span class="text-xs xs:text-md md:text-base tracking-wide text-color mx-1">:</span>
+                        <span class="text-xs xs:text-md md:text-base tracking-wide text-color">14</span>
+                    </div>
+                </div>
+                <div class="flex flex-col">
+                    <div class="flex-none md:w-32 self-end flex flex-col xs:flex-row justify-end">
+                        <button class="bounceIn text-xs md:text-base px-1 md:px-2  btn btn-js m-1">جزئیات</button>
+                    </div>
+                    <div class="flex-none md:w-32 self-end flex flex-col justify-end mt-4">
+                        <label class="inline-flex items-center mt-1 mx-1 justify-end items-center">
+                            <span class="ml-2 whitespace-nowrap text-x text-sm" style="color: #8d8d8d;">فعال کردن</span>
+                            <input type="radio" name="ok" class="form-checkbox h-5 w-5 text-yellow-600" style="border: 1px solid #b6b6b6;">
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </div>
     <script>
         var body = document.querySelector("body")
         var btn_1 = document.querySelector("#btn_1")
         var btn_2 = document.querySelector("#btn_2")
         var btn_3 = document.querySelector("#btn_3")
+        var btn_4 = document.querySelector("#btn_4")
         btn_2.style.color = "#27272769";
         btn_3.style.color = "#27272769";
+        btn_4.style.color = "#27272769";
 
 
-        var sec1 = document.querySelector("#sec3")
+        var sec1 = document.querySelector("#sec1")
         var sec2 = document.querySelector("#sec2")
-        var sec2 = document.querySelector("#sec1")
+        var sec3 = document.querySelector("#sec3")
+        var sec4 = document.querySelector("#sec4")
 
-        var active_b = document.querySelector("#active_b")
+
 
         btn_1.addEventListener("click", () => {
-            active_b.classList.remove("justify-end")
-            active_b.classList.remove("justify-center")
-            active_b.classList.add("justify-start")
+            btn_4.classList.remove("tab_active")
+            btn_3.classList.remove("tab_active")
+            btn_2.classList.remove("tab_active")
+            btn_1.classList.add("tab_active")
+
+            sec4.style.display = 'none';
             sec3.style.display = 'none';
             sec2.style.display = 'none';
             sec1.style.display = 'flex';
+
             body.style.backgroundColor = '#fff';
+
+            btn_4.style.color = "#27272769";
             btn_3.style.color = "#27272769";
             btn_2.style.color = "#27272769";
             btn_1.style.color = "#272727";
         });
         btn_2.addEventListener("click", () => {
-            active_b.classList.remove("justify-start")
-            active_b.classList.remove("justify-end")
-            active_b.classList.add("justify-center")
-            sec1.style.display = 'none';
+            btn_4.classList.remove("tab_active")
+            btn_3.classList.remove("tab_active")
+            btn_1.classList.remove("tab_active")
+            btn_2.classList.add("tab_active")
+
+            sec4.style.display = 'none';
             sec3.style.display = 'none';
+            sec1.style.display = 'none';
             sec2.style.display = 'flex';
+
             body.style.backgroundColor = '#fbfbfb';
-            btn_1.style.color = "#27272769";
+
+            btn_4.style.color = "#27272769";
             btn_3.style.color = "#27272769";
+            btn_1.style.color = "#27272769";
             btn_2.style.color = "#272727";
         });  
         btn_3.addEventListener("click", () => {
-            active_b.classList.remove("justify-start")
-            active_b.classList.remove("justify-center")
-            active_b.classList.add("justify-end")
+            btn_4.classList.remove("tab_active")
+            btn_2.classList.remove("tab_active")
+            btn_1.classList.remove("tab_active")
+            btn_3.classList.add("tab_active")
+
+            sec4.style.display = 'none';
             sec2.style.display = 'none';
             sec1.style.display = 'none';
             sec3.style.display = 'flex';
+
             body.style.backgroundColor = '#fbfbfb';
-            btn_1.style.color = "#27272769";
+
+            btn_4.style.color = "#27272769";
             btn_2.style.color = "#27272769";
+            btn_1.style.color = "#27272769";
             btn_3.style.color = "#272727";
+        });
+        btn_4.addEventListener("click", () => {
+            btn_3.classList.remove("tab_active")
+            btn_2.classList.remove("tab_active")
+            btn_1.classList.remove("tab_active")
+            btn_4.classList.add("tab_active")
+
+            sec3.style.display = 'none';
+            sec2.style.display = 'none';
+            sec1.style.display = 'none';
+            sec4.style.display = 'flex';
+
+            body.style.backgroundColor = '#fbfbfb';
+
+            btn_3.style.color = "#27272769";
+            btn_2.style.color = "#27272769";
+            btn_1.style.color = "#27272769";
+            btn_4.style.color = "#272727";
         });
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>

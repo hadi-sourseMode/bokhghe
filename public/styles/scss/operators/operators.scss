@@ -236,3 +236,8 @@ background-color: #6266d9;
     bottom: 0;
     top: 0;
 }
+.text-x{
+    @media (min-width:200px)and(max-width:406px) {
+        font-size: 8px;
+    }
+}
