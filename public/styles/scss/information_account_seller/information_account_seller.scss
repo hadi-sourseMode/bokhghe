@@ -106,3 +106,30 @@ body{
     transform: scale3d(1, 1, 1);
   }
 }
+
+.top_monitoring{
+  background-color: #86AD93;
+
+}
+.plas::placeholder{
+  font-weight: 100;
+  @media (min-width: 880px){
+    font-size: 16px !important;
+  }
+  @media (max-width: 880px){
+    font-size: 14px !important;
+  }
+  @media (max-width: 480px){
+    font-size: 13px !important;
+  }
+  @media (max-width: 420px){
+      font-size: 12px !important;
+  }
+  @media (max-width: 380px){
+      font-size: 10px !important;
+  }
+
+  @media (max-width: 340px){
+      font-size: 9px !important;
+  }
+}

@@ -284,3 +284,47 @@ input:checked + div svg {
     font-size: 12px !important;
   }
 }
+
+.top_monitoring {
+  background-color: #86AD93;
+}
+
+.plas::placeholder {
+  font-weight: 100;
+}
+
+@media (min-width: 880px) {
+  .plas::placeholder {
+    font-size: 16px !important;
+  }
+}
+
+@media (max-width: 880px) {
+  .plas::placeholder {
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .plas::placeholder {
+    font-size: 13px !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .plas::placeholder {
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .plas::placeholder {
+    font-size: 10px !important;
+  }
+}
+
+@media (max-width: 340px) {
+  .plas::placeholder {
+    font-size: 9px !important;
+  }
+}
