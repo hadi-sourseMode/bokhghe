@@ -91,7 +91,8 @@ video {
   font-size: 100%;
   font-family: font;
   vertical-align: baseline;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -146,6 +147,8 @@ body {
 
 .ScrollCarousel .ScrollCarousel-Items {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   overflow-x: auto;
   width: 100%;
@@ -265,3 +268,4 @@ body {
     font-size: 14px;
   }
 }
+/*# sourceMappingURL=home.css.map */

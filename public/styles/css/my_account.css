@@ -141,20 +141,7 @@ table {
   color: #979797;
 }
 
-.actve_bar_b {
-  color: #a63532;
-}
-
-.deactve_bar_b {
-  color: #aaa9a9;
-}
-
 body {
-  background: #fbfbfb;
+  background: red;
 }
-
-.btn_add_product {
-  background-color: #a63532;
-  color: white;
-}
-/*# sourceMappingURL=my_products.css.map */
+/*# sourceMappingURL=my_account.css.map */
