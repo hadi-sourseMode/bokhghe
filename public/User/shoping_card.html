@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/assets/tailwindcss/tailwind.css" />
+    <link rel="stylesheet" href="/styles/css/my_Order.css" />
+
+    <title>بخچه کرمان</title>
+</head>
+
+<body class="flex xs:w-full md:w-2/3 lg:w-1/2 mx-auto flex-col relative h-screen " style="padding-bottom: 67rem;">
+
+    <section class="flex flex-col px-5 background-color shadow-md mt-3 rounded-xl mx-5" style="border: 1px solid #eee;">
+        <div class="flex justify-between pt-3">
+            <div>gvcmsfgm</div>
+            <span>fgmdfh</span>
+        </div>
+        <section class="grid grid-cols-3 gap-4 " style="border-bottom: 2px solid #eee; ">
+            <div class="w-20 md:w-28 self-center justify-self-center">
+                <img src="/img/ebe5daae10c66e2c_2.png " class="w-28 p-1 md:p-4 " alt="products ">
+            </div>
+            <div class="col-span-2 pt-5 ">
+                <div class="flex w-full flex-col relative" >
+                    <div class="flex flex-col mt-3 " >
+                        <span class="font-bold font_text_bozorg">کلمپه اصیل کرمان</span>
+                        <span class="font_text_kochick my-px mt-1 flex" style="color: teal;">
+                            <img src="/img/کاربر/sttore@3x.png" class="ml-1 w-3 h-3" alt="shoping">
+                            <span class="self-center">کلمپه اصیل کرمان</span>
+                        </span> 
+                        <span class="font_text_kochick my-px mt-1 ">کلمپه اصیل کرمان</span> 
+                        <span class="font_text_kochick my-px mt-1 ">کلمپه اصیل کرمان</span>
+                    </div>
+                    <div class="mt-1 flex justify-end w-full flex-col ">
+                        <del class="sub_text flex justify-end font_text_kochick mb-1"> 
+                          <span class="font-bold mx-1 ">
+                            850,000 
+                       </span><span>تومان</span></del>
+                        <span class="flex justify-end font_text_bozorg pb-3">
+                            <span class="font-bold mx-2 ">
+                                 850,000 
+                            </span><span>تومان</span>
+                        </span>
+                    </div>
+                    <img src="/img/کاربر/Path 51@3x.png" class="absolute top-0 left-0 p-1 w-4 h-5" alt="delete">
+                    <div class="absolute bottom-0 right-0 count_kala flex justify-between items-center p-1 mb-2 rounded shadow" style="border: 1px solid rgba(238, 238, 238, 0.741);">
+                        <img src="/img/کاربر/Group 174@3x.png" class="w-2 m-px cursor-pointer _btn" alt="+">
+                        <input type="num" class="w-6 h-2 text-center pt-1" style="font-size: 13px;">
+                        <img src="/img/کاربر/Path 56@3x.png" class="w-2 m-px cursor-pointer _btn" alt="-">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </section>
+    <script>
+        let counter_tags = document.querySelectorAll(".count_kala");
+        let _btn = document.querySelectorAll("._btn");
+
+        counter_tags.forEach(element => {
+            element.addEventListener("click", e => {
+                _btn.forEach(childEleFoe => {
+                    if(e.target === childEleFoe){
+                    element.childNodes.forEach(childE => {
+                        if(childE === '<input type="num" class="w-6 h-2 text-center pt-1" style="font-size: 13px;">'){
+                            childE.value += 1;
+                        }
+                    });
+                }else if(e.target === childEleFoe){
+                    element.childNodes.forEach(childE => {
+                        if(childE === '<input type="num" class="w-6 h-2 text-center pt-1" style="font-size: 13px;">'){
+                            childE.value -= 1;
+                        }
+                    });
+                }else{
+                    console.log(e.target)
+                }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

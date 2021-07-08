@@ -133,3 +133,41 @@ body {
 .tab_active {
     border-bottom: 4px solid $text-seller;
 }
+.font_text_bozorg{
+    @media (min-width: 480px){
+        font-size: 14px !important;
+    }
+    @media (max-width: 480px){
+        font-size: 14px !important;
+    }
+    @media (max-width: 420px){
+        font-size: 13px !important;
+    }
+    @media (max-width: 380px){
+        font-size: 11px !important;
+    }
+    
+    @media (max-width: 340px){
+        font-size: 10px !important;
+    }
+    
+}
+.font_text_kochick{
+    @media (min-width: 480px){
+        font-size: 12px !important;
+    }
+    @media (max-width: 480px){
+        font-size: 10px !important;
+    }
+    @media (max-width: 420px){
+        font-size: 9px !important;
+    }
+    @media (max-width: 380px){
+        font-size: 8px !important;
+    }
+    
+    @media (max-width: 340px){
+        font-size: 8px !important;
+    }
+    
+}
