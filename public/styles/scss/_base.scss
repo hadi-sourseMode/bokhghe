@@ -149,3 +149,7 @@ table {
 .sub_text {
     color: rgb(151, 151, 151);
 }
+
+input:focus {
+    outline: none;
+}

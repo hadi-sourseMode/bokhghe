@@ -144,19 +144,11 @@ input:focus {
   outline: none;
 }
 
-.actve_bar_b {
-  color: #a63532;
-}
-
-.deactve_bar_b {
-  color: #aaa9a9;
-}
-
 body {
-  background: #fbfbfb;
+  background-color: #f0f0f0;
 }
 
-.btn_add_product {
-  background-color: #a63532;
-  color: white;
+.top_elem {
+  background-color: #00000073;
+  border-radius: 100%;
 }

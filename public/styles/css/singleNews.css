@@ -91,8 +91,7 @@ video {
   font-size: 100%;
   font-family: font;
   vertical-align: baseline;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -139,6 +138,10 @@ table {
 
 .sub_text {
   color: #979797;
+}
+
+input:focus {
+  outline: none;
 }
 
 .text-main {
@@ -191,7 +194,6 @@ table {
 }
 
 .tab {
-  -webkit-box-shadow: 0px 0px 13px 1px rgba(0, 0, 0, 0.49);
   box-shadow: 0px 0px 13px 1px rgba(0, 0, 0, 0.226);
   background-color: #fff;
 }
@@ -305,4 +307,3 @@ table {
   -webkit-box-shadow: -2px -21px 10px 0px #3232322a;
   -moz-box-shadow: -2px -21px 10px 0px #3232322a;
 }
-/*# sourceMappingURL=singleNews.css.map */
